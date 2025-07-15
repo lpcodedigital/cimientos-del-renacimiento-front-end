@@ -1,0 +1,3203 @@
+[
+  {
+    "id": 1,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 2261641.24,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 83,
+    "descripcion": "Descripción de la obra número 1 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+42",
+      "https://placehold.co/600x400?text=Obra+73",
+      "https://placehold.co/600x400?text=Obra+140"
+      
+    ],
+    "latitude": 21.323194,
+    "longitude": -88.151338
+  },
+  {
+    "id": 2,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1277244.69,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 85,
+    "descripcion": "Descripción de la obra número 2 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+27",
+      "https://placehold.co/600x400?text=Obra+54",
+      "https://placehold.co/600x400?text=Obra+123"
+    ],
+    "latitude": 20.789388,
+    "longitude": -88.008875
+  },
+  {
+    "id": 3,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1541873.85,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 20,
+    "descripcion": "Descripción de la obra número 3 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+20",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+124"
+    ],
+    "latitude": 21.407038,
+    "longitude": -90.448124
+  },
+  {
+    "id": 4,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1927938.54,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 53,
+    "descripcion": "Descripción de la obra número 4 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+28",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+102"
+    ],
+    "latitude": 21.431923,
+    "longitude": -89.350232
+  },
+  {
+    "id": 5,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1419039.21,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 62,
+    "descripcion": "Descripción de la obra número 5 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+35",
+      "https://placehold.co/600x400?text=Obra+95",
+      "https://placehold.co/600x400?text=Obra+128"
+    ],
+    "latitude": 20.674662,
+    "longitude": -89.660128
+  },
+  {
+    "id": 6,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1664748.43,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 12,
+    "descripcion": "Descripción de la obra número 6 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+84",
+      "https://placehold.co/600x400?text=Obra+101"
+    ],
+    "latitude": 20.131174,
+    "longitude": -89.164091
+  },
+  {
+    "id": 7,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1223275.41,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 33,
+    "descripcion": "Descripción de la obra número 7 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+73",
+      "https://placehold.co/600x400?text=Obra+108"
+    ],
+    "latitude": 20.297243,
+    "longitude": -89.592554
+  },
+  {
+    "id": 8,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 2467455.54,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 15,
+    "descripcion": "Descripción de la obra número 8 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+7",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 21.31035,
+    "longitude": -88.369869
+  },
+  {
+    "id": 9,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1663791.72,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 68,
+    "descripcion": "Descripción de la obra número 9 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.044665,
+    "longitude": -89.048704
+  },
+  {
+    "id": 10,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1461903.11,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 82,
+    "descripcion": "Descripción de la obra número 10 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+38",
+      "https://placehold.co/600x400?text=Obra+56",
+      "https://placehold.co/600x400?text=Obra+116"
+    ],
+    "latitude": 20.873637,
+    "longitude": -89.012196
+  },
+  {
+    "id": 11,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1271248.71,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 96,
+    "descripcion": "Descripción de la obra número 11 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+36",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+139"
+    ],
+    "latitude": 21.377932,
+    "longitude": -88.61151
+  },
+  {
+    "id": 12,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2411809.39,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 64,
+    "descripcion": "Descripción de la obra número 12 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+52",
+      "https://placehold.co/600x400?text=Obra+125"
+    ],
+    "latitude": 20.223038,
+    "longitude": -89.739402
+  },
+  {
+    "id": 13,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1406478.13,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 65,
+    "descripcion": "Descripción de la obra número 13 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+91",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 21.15678,
+    "longitude": -88.788574
+  },
+  {
+    "id": 14,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 2398447.14,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 21,
+    "descripcion": "Descripción de la obra número 14 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+24",
+      "https://placehold.co/600x400?text=Obra+93",
+      "https://placehold.co/600x400?text=Obra+130"
+    ],
+    "latitude": 21.401665,
+    "longitude": -89.525536
+  },
+  {
+    "id": 15,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1444890.94,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 23,
+    "descripcion": "Descripción de la obra número 15 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+132"
+    ],
+    "latitude": 20.516252,
+    "longitude": -89.076515
+  },
+  {
+    "id": 16,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 1806934.77,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 86,
+    "descripcion": "Descripción de la obra número 16 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+108"
+    ],
+    "latitude": 21.354846,
+    "longitude": -88.334542
+  },
+  {
+    "id": 17,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2293951.0,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 65,
+    "descripcion": "Descripción de la obra número 17 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+26",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+118"
+    ],
+    "latitude": 20.940448,
+    "longitude": -90.145478
+  },
+  {
+    "id": 18,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1247597.88,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 17,
+    "descripcion": "Descripción de la obra número 18 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+34",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+130"
+    ],
+    "latitude": 21.116845,
+    "longitude": -88.046292
+  },
+  {
+    "id": 19,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 2390215.4,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 29,
+    "descripcion": "Descripción de la obra número 19 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+3",
+      "https://placehold.co/600x400?text=Obra+79",
+      "https://placehold.co/600x400?text=Obra+119"
+    ],
+    "latitude": 20.894234,
+    "longitude": -88.68003
+  },
+  {
+    "id": 20,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1232980.02,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 20 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+38",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+149"
+    ],
+    "latitude": 20.773625,
+    "longitude": -88.168137
+  },
+  {
+    "id": 21,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1330159.69,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 83,
+    "descripcion": "Descripción de la obra número 21 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+9",
+      "https://placehold.co/600x400?text=Obra+70",
+      "https://placehold.co/600x400?text=Obra+103"
+    ],
+    "latitude": 20.932824,
+    "longitude": -90.172354
+  },
+  {
+    "id": 22,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2328836.05,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 48,
+    "descripcion": "Descripción de la obra número 22 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+144"
+    ],
+    "latitude": 21.364144,
+    "longitude": -90.213861
+  },
+  {
+    "id": 23,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1830190.64,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 67,
+    "descripcion": "Descripción de la obra número 23 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+11",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+141"
+    ],
+    "latitude": 21.182842,
+    "longitude": -88.207647
+  },
+  {
+    "id": 24,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 2458400.16,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 61,
+    "descripcion": "Descripción de la obra número 24 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+15",
+      "https://placehold.co/600x400?text=Obra+99",
+      "https://placehold.co/600x400?text=Obra+117"
+    ],
+    "latitude": 20.767916,
+    "longitude": -90.429999
+  },
+  {
+    "id": 25,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1507135.41,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 27,
+    "descripcion": "Descripción de la obra número 25 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+33",
+      "https://placehold.co/600x400?text=Obra+54",
+      "https://placehold.co/600x400?text=Obra+145"
+    ],
+    "latitude": 20.099803,
+    "longitude": -89.933563
+  },
+  {
+    "id": 26,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1499634.19,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 73,
+    "descripcion": "Descripción de la obra número 26 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+29",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 21.399628,
+    "longitude": -89.46215
+  },
+  {
+    "id": 27,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1088651.9,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 76,
+    "descripcion": "Descripción de la obra número 27 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+142"
+    ],
+    "latitude": 20.772562,
+    "longitude": -88.016304
+  },
+  {
+    "id": 28,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1169356.64,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 13,
+    "descripcion": "Descripción de la obra número 28 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 21.177476,
+    "longitude": -88.848132
+  },
+  {
+    "id": 29,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1276310.91,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 44,
+    "descripcion": "Descripción de la obra número 29 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+11",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 21.368373,
+    "longitude": -89.863218
+  },
+  {
+    "id": 30,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 2008635.46,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 22,
+    "descripcion": "Descripción de la obra número 30 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+73",
+      "https://placehold.co/600x400?text=Obra+102"
+    ],
+    "latitude": 20.388656,
+    "longitude": -88.559213
+  },
+  {
+    "id": 31,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 2055423.17,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 60,
+    "descripcion": "Descripción de la obra número 31 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+43",
+      "https://placehold.co/600x400?text=Obra+76",
+      "https://placehold.co/600x400?text=Obra+120"
+    ],
+    "latitude": 20.401309,
+    "longitude": -90.413351
+  },
+  {
+    "id": 32,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1327024.48,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 68,
+    "descripcion": "Descripción de la obra número 32 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+49",
+      "https://placehold.co/600x400?text=Obra+74",
+      "https://placehold.co/600x400?text=Obra+117"
+    ],
+    "latitude": 20.09265,
+    "longitude": -90.412374
+  },
+  {
+    "id": 33,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1415100.03,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 21,
+    "descripcion": "Descripción de la obra número 33 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+28",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+123"
+    ],
+    "latitude": 20.301861,
+    "longitude": -89.009076
+  },
+  {
+    "id": 34,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1100308.32,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 34 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+6",
+      "https://placehold.co/600x400?text=Obra+92",
+      "https://placehold.co/600x400?text=Obra+128"
+    ],
+    "latitude": 20.411829,
+    "longitude": -88.796164
+  },
+  {
+    "id": 35,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1600323.71,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 88,
+    "descripcion": "Descripción de la obra número 35 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+90",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 20.925751,
+    "longitude": -88.651459
+  },
+  {
+    "id": 36,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2261865.47,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 37,
+    "descripcion": "Descripción de la obra número 36 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+16",
+      "https://placehold.co/600x400?text=Obra+74",
+      "https://placehold.co/600x400?text=Obra+104"
+    ],
+    "latitude": 21.212542,
+    "longitude": -90.110916
+  },
+  {
+    "id": 37,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1120322.26,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 12,
+    "descripcion": "Descripción de la obra número 37 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+36",
+      "https://placehold.co/600x400?text=Obra+95",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 20.445533,
+    "longitude": -90.013414
+  },
+  {
+    "id": 38,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1158689.47,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 36,
+    "descripcion": "Descripción de la obra número 38 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+28",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+142"
+    ],
+    "latitude": 20.671558,
+    "longitude": -88.151001
+  },
+  {
+    "id": 39,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2027626.44,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 54,
+    "descripcion": "Descripción de la obra número 39 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+110"
+    ],
+    "latitude": 20.363937,
+    "longitude": -89.67592
+  },
+  {
+    "id": 40,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1199541.1,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 40 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+3",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+133"
+    ],
+    "latitude": 21.442646,
+    "longitude": -88.927677
+  },
+  {
+    "id": 41,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1571129.05,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 12,
+    "descripcion": "Descripción de la obra número 41 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+38",
+      "https://placehold.co/600x400?text=Obra+71",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 20.064465,
+    "longitude": -89.908035
+  },
+  {
+    "id": 42,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1179490.41,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 12,
+    "descripcion": "Descripción de la obra número 42 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+8",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+140"
+    ],
+    "latitude": 20.121741,
+    "longitude": -90.49629
+  },
+  {
+    "id": 43,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1996408.31,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 62,
+    "descripcion": "Descripción de la obra número 43 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+2",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+129"
+    ],
+    "latitude": 21.041626,
+    "longitude": -88.60514
+  },
+  {
+    "id": 44,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1605497.74,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 46,
+    "descripcion": "Descripción de la obra número 44 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+33",
+      "https://placehold.co/600x400?text=Obra+90",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.531419,
+    "longitude": -89.276439
+  },
+  {
+    "id": 45,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 840931.54,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 10,
+    "descripcion": "Descripción de la obra número 45 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+150"
+    ],
+    "latitude": 21.164309,
+    "longitude": -89.03971
+  },
+  {
+    "id": 46,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 949560.31,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 27,
+    "descripcion": "Descripción de la obra número 46 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+30",
+      "https://placehold.co/600x400?text=Obra+90",
+      "https://placehold.co/600x400?text=Obra+125"
+    ],
+    "latitude": 21.12801,
+    "longitude": -89.329457
+  },
+  {
+    "id": 47,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 817847.56,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 76,
+    "descripcion": "Descripción de la obra número 47 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+12",
+      "https://placehold.co/600x400?text=Obra+81",
+      "https://placehold.co/600x400?text=Obra+139"
+    ],
+    "latitude": 20.661123,
+    "longitude": -88.191536
+  },
+  {
+    "id": 48,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1351656.95,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 52,
+    "descripcion": "Descripción de la obra número 48 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 21.094562,
+    "longitude": -88.191768
+  },
+  {
+    "id": 49,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1020943.89,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 49 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+20",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 20.515705,
+    "longitude": -89.058132
+  },
+  {
+    "id": 50,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 2325488.93,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 71,
+    "descripcion": "Descripción de la obra número 50 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+111"
+    ],
+    "latitude": 21.29425,
+    "longitude": -88.45411
+  },
+  {
+    "id": 51,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 936154.95,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 90,
+    "descripcion": "Descripción de la obra número 51 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+15",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 21.075503,
+    "longitude": -90.22337
+  },
+  {
+    "id": 52,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 1482415.11,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 52 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+99",
+      "https://placehold.co/600x400?text=Obra+129"
+    ],
+    "latitude": 21.2382,
+    "longitude": -90.100714
+  },
+  {
+    "id": 53,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1606795.96,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 93,
+    "descripcion": "Descripción de la obra número 53 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+27",
+      "https://placehold.co/600x400?text=Obra+76",
+      "https://placehold.co/600x400?text=Obra+124"
+    ],
+    "latitude": 20.724948,
+    "longitude": -90.357822
+  },
+  {
+    "id": 54,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 804523.95,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 54,
+    "descripcion": "Descripción de la obra número 54 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+12",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+135"
+    ],
+    "latitude": 20.790618,
+    "longitude": -88.762821
+  },
+  {
+    "id": 55,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1662658.64,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 52,
+    "descripcion": "Descripción de la obra número 55 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+110"
+    ],
+    "latitude": 21.199097,
+    "longitude": -88.985435
+  },
+  {
+    "id": 56,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1272011.87,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 24,
+    "descripcion": "Descripción de la obra número 56 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+36",
+      "https://placehold.co/600x400?text=Obra+68",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 21.416633,
+    "longitude": -88.972804
+  },
+  {
+    "id": 57,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 2415839.1,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 83,
+    "descripcion": "Descripción de la obra número 57 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+32",
+      "https://placehold.co/600x400?text=Obra+71",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 21.11413,
+    "longitude": -88.366198
+  },
+  {
+    "id": 58,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1763806.15,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 42,
+    "descripcion": "Descripción de la obra número 58 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+29",
+      "https://placehold.co/600x400?text=Obra+96",
+      "https://placehold.co/600x400?text=Obra+131"
+    ],
+    "latitude": 20.131969,
+    "longitude": -88.811651
+  },
+  {
+    "id": 59,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1068951.75,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 59 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+38",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+131"
+    ],
+    "latitude": 20.697311,
+    "longitude": -89.606334
+  },
+  {
+    "id": 60,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 880631.26,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 19,
+    "descripcion": "Descripción de la obra número 60 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+30",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+103"
+    ],
+    "latitude": 21.37493,
+    "longitude": -89.787952
+  },
+  {
+    "id": 61,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1634060.4,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 63,
+    "descripcion": "Descripción de la obra número 61 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+3",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 20.769372,
+    "longitude": -89.210609
+  },
+  {
+    "id": 62,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1188589.67,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 47,
+    "descripcion": "Descripción de la obra número 62 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+111"
+    ],
+    "latitude": 20.818754,
+    "longitude": -89.723442
+  },
+  {
+    "id": 63,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 876244.85,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 50,
+    "descripcion": "Descripción de la obra número 63 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+11",
+      "https://placehold.co/600x400?text=Obra+91",
+      "https://placehold.co/600x400?text=Obra+118"
+    ],
+    "latitude": 20.407088,
+    "longitude": -88.844519
+  },
+  {
+    "id": 64,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1587691.18,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 81,
+    "descripcion": "Descripción de la obra número 64 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+47",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+138"
+    ],
+    "latitude": 20.067709,
+    "longitude": -88.550863
+  },
+  {
+    "id": 65,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1880886.44,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 84,
+    "descripcion": "Descripción de la obra número 65 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+98",
+      "https://placehold.co/600x400?text=Obra+109"
+    ],
+    "latitude": 21.172829,
+    "longitude": -88.813866
+  },
+  {
+    "id": 66,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 2188833.43,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 62,
+    "descripcion": "Descripción de la obra número 66 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+67",
+      "https://placehold.co/600x400?text=Obra+122"
+    ],
+    "latitude": 20.709647,
+    "longitude": -89.664279
+  },
+  {
+    "id": 67,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1454470.11,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 67 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+47",
+      "https://placehold.co/600x400?text=Obra+67",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 20.020622,
+    "longitude": -88.94697
+  },
+  {
+    "id": 68,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1428301.33,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 28,
+    "descripcion": "Descripción de la obra número 68 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+8",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+137"
+    ],
+    "latitude": 21.129316,
+    "longitude": -88.250413
+  },
+  {
+    "id": 69,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1118497.4,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 68,
+    "descripcion": "Descripción de la obra número 69 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+120"
+    ],
+    "latitude": 20.746809,
+    "longitude": -90.23097
+  },
+  {
+    "id": 70,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1509714.5,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 41,
+    "descripcion": "Descripción de la obra número 70 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+68",
+      "https://placehold.co/600x400?text=Obra+133"
+    ],
+    "latitude": 20.597051,
+    "longitude": -88.962779
+  },
+  {
+    "id": 71,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1596262.28,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 71 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+49",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+139"
+    ],
+    "latitude": 20.009048,
+    "longitude": -88.54808
+  },
+  {
+    "id": 72,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1492171.7,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 18,
+    "descripcion": "Descripción de la obra número 72 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+37",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+144"
+    ],
+    "latitude": 21.108361,
+    "longitude": -88.300315
+  },
+  {
+    "id": 73,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 821767.52,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 84,
+    "descripcion": "Descripción de la obra número 73 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+72",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 20.446005,
+    "longitude": -88.333448
+  },
+  {
+    "id": 74,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1523700.97,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 73,
+    "descripcion": "Descripción de la obra número 74 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+16",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 21.157628,
+    "longitude": -88.717301
+  },
+  {
+    "id": 75,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1590458.41,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 49,
+    "descripcion": "Descripción de la obra número 75 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+138"
+    ],
+    "latitude": 21.490069,
+    "longitude": -88.77209
+  },
+  {
+    "id": 76,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2359995.95,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 76 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+117"
+    ],
+    "latitude": 21.367474,
+    "longitude": -90.052731
+  },
+  {
+    "id": 77,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 2419015.29,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 97,
+    "descripcion": "Descripción de la obra número 77 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+38",
+      "https://placehold.co/600x400?text=Obra+88",
+      "https://placehold.co/600x400?text=Obra+145"
+    ],
+    "latitude": 21.109062,
+    "longitude": -88.5089
+  },
+  {
+    "id": 78,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 977515.06,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 44,
+    "descripcion": "Descripción de la obra número 78 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+45",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 20.100058,
+    "longitude": -90.347989
+  },
+  {
+    "id": 79,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1663394.15,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 10,
+    "descripcion": "Descripción de la obra número 79 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 20.535706,
+    "longitude": -88.626372
+  },
+  {
+    "id": 80,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1831305.74,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 81,
+    "descripcion": "Descripción de la obra número 80 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+6",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+125"
+    ],
+    "latitude": 20.224413,
+    "longitude": -88.020129
+  },
+  {
+    "id": 81,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1812068.38,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 36,
+    "descripcion": "Descripción de la obra número 81 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+6",
+      "https://placehold.co/600x400?text=Obra+98",
+      "https://placehold.co/600x400?text=Obra+102"
+    ],
+    "latitude": 20.909205,
+    "longitude": -90.170763
+  },
+  {
+    "id": 82,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 802910.92,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 82 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+143"
+    ],
+    "latitude": 20.704008,
+    "longitude": -88.696937
+  },
+  {
+    "id": 83,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1576513.39,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 63,
+    "descripcion": "Descripción de la obra número 83 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+16",
+      "https://placehold.co/600x400?text=Obra+58",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.388535,
+    "longitude": -90.280841
+  },
+  {
+    "id": 84,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 996363.57,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 82,
+    "descripcion": "Descripción de la obra número 84 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+19",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 20.141844,
+    "longitude": -89.678803
+  },
+  {
+    "id": 85,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 2288008.17,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 23,
+    "descripcion": "Descripción de la obra número 85 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+150"
+    ],
+    "latitude": 20.696213,
+    "longitude": -89.576916
+  },
+  {
+    "id": 86,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1497235.18,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 14,
+    "descripcion": "Descripción de la obra número 86 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+36",
+      "https://placehold.co/600x400?text=Obra+64",
+      "https://placehold.co/600x400?text=Obra+133"
+    ],
+    "latitude": 20.210563,
+    "longitude": -90.361708
+  },
+  {
+    "id": 87,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 2428183.83,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 78,
+    "descripcion": "Descripción de la obra número 87 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+44",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 21.378743,
+    "longitude": -88.263564
+  },
+  {
+    "id": 88,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 2440635.58,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 90,
+    "descripcion": "Descripción de la obra número 88 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+7",
+      "https://placehold.co/600x400?text=Obra+60",
+      "https://placehold.co/600x400?text=Obra+120"
+    ],
+    "latitude": 20.128641,
+    "longitude": -90.331095
+  },
+  {
+    "id": 89,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 852863.56,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 81,
+    "descripcion": "Descripción de la obra número 89 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+34",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 20.837809,
+    "longitude": -88.239279
+  },
+  {
+    "id": 90,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1060297.76,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 40,
+    "descripcion": "Descripción de la obra número 90 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+9",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 20.257194,
+    "longitude": -89.244133
+  },
+  {
+    "id": 91,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2343774.51,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 47,
+    "descripcion": "Descripción de la obra número 91 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+60",
+      "https://placehold.co/600x400?text=Obra+135"
+    ],
+    "latitude": 21.200954,
+    "longitude": -88.727952
+  },
+  {
+    "id": 92,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 829327.12,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 22,
+    "descripcion": "Descripción de la obra número 92 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+99",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 21.272218,
+    "longitude": -89.36789
+  },
+  {
+    "id": 93,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1494590.99,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 89,
+    "descripcion": "Descripción de la obra número 93 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+56",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 21.158881,
+    "longitude": -89.48995
+  },
+  {
+    "id": 94,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1965696.12,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 63,
+    "descripcion": "Descripción de la obra número 94 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+52",
+      "https://placehold.co/600x400?text=Obra+104"
+    ],
+    "latitude": 20.860995,
+    "longitude": -88.606298
+  },
+  {
+    "id": 95,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1527840.32,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 76,
+    "descripcion": "Descripción de la obra número 95 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+129"
+    ],
+    "latitude": 20.854824,
+    "longitude": -89.180839
+  },
+  {
+    "id": 96,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1167532.22,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 80,
+    "descripcion": "Descripción de la obra número 96 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+44",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+102"
+    ],
+    "latitude": 20.992778,
+    "longitude": -90.338283
+  },
+  {
+    "id": 97,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2248782.29,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 46,
+    "descripcion": "Descripción de la obra número 97 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+47",
+      "https://placehold.co/600x400?text=Obra+95",
+      "https://placehold.co/600x400?text=Obra+128"
+    ],
+    "latitude": 20.260048,
+    "longitude": -88.69849
+  },
+  {
+    "id": 98,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1465846.11,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 37,
+    "descripcion": "Descripción de la obra número 98 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+31",
+      "https://placehold.co/600x400?text=Obra+55",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 20.468164,
+    "longitude": -88.439322
+  },
+  {
+    "id": 99,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1437047.6,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 41,
+    "descripcion": "Descripción de la obra número 99 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.750279,
+    "longitude": -88.34638
+  },
+  {
+    "id": 100,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 1594386.42,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 50,
+    "descripcion": "Descripción de la obra número 100 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+26",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+101"
+    ],
+    "latitude": 21.061409,
+    "longitude": -90.24691
+  },
+  {
+    "id": 101,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1470921.76,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 96,
+    "descripcion": "Descripción de la obra número 101 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+20",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+126"
+    ],
+    "latitude": 20.020383,
+    "longitude": -88.807507
+  },
+  {
+    "id": 102,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 966880.63,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 46,
+    "descripcion": "Descripción de la obra número 102 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+88",
+      "https://placehold.co/600x400?text=Obra+144"
+    ],
+    "latitude": 21.356749,
+    "longitude": -89.769544
+  },
+  {
+    "id": 103,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1139190.61,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 94,
+    "descripcion": "Descripción de la obra número 103 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+81",
+      "https://placehold.co/600x400?text=Obra+146"
+    ],
+    "latitude": 20.016292,
+    "longitude": -89.162215
+  },
+  {
+    "id": 104,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1102262.75,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 37,
+    "descripcion": "Descripción de la obra número 104 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+64",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 20.250919,
+    "longitude": -89.951536
+  },
+  {
+    "id": 105,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1683796.48,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 26,
+    "descripcion": "Descripción de la obra número 105 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+34",
+      "https://placehold.co/600x400?text=Obra+62",
+      "https://placehold.co/600x400?text=Obra+135"
+    ],
+    "latitude": 20.702834,
+    "longitude": -89.952148
+  },
+  {
+    "id": 106,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 945354.31,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 57,
+    "descripcion": "Descripción de la obra número 106 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+135"
+    ],
+    "latitude": 20.103937,
+    "longitude": -90.406752
+  },
+  {
+    "id": 107,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1127339.57,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 51,
+    "descripcion": "Descripción de la obra número 107 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+34",
+      "https://placehold.co/600x400?text=Obra+91",
+      "https://placehold.co/600x400?text=Obra+144"
+    ],
+    "latitude": 20.427371,
+    "longitude": -89.388821
+  },
+  {
+    "id": 108,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1653653.62,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 93,
+    "descripcion": "Descripción de la obra número 108 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+140"
+    ],
+    "latitude": 20.629524,
+    "longitude": -89.304454
+  },
+  {
+    "id": 109,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1727195.17,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 68,
+    "descripcion": "Descripción de la obra número 109 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 20.095571,
+    "longitude": -90.081354
+  },
+  {
+    "id": 110,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1466520.14,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 110 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+45",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+108"
+    ],
+    "latitude": 20.128321,
+    "longitude": -88.880135
+  },
+  {
+    "id": 111,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2303962.26,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 51,
+    "descripcion": "Descripción de la obra número 111 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+85",
+      "https://placehold.co/600x400?text=Obra+110"
+    ],
+    "latitude": 21.036042,
+    "longitude": -89.896423
+  },
+  {
+    "id": 112,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1494184.01,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 84,
+    "descripcion": "Descripción de la obra número 112 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+2",
+      "https://placehold.co/600x400?text=Obra+60",
+      "https://placehold.co/600x400?text=Obra+133"
+    ],
+    "latitude": 20.155993,
+    "longitude": -89.294995
+  },
+  {
+    "id": 113,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1742589.99,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 25,
+    "descripcion": "Descripción de la obra número 113 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+11",
+      "https://placehold.co/600x400?text=Obra+76",
+      "https://placehold.co/600x400?text=Obra+111"
+    ],
+    "latitude": 21.27421,
+    "longitude": -89.803802
+  },
+  {
+    "id": 114,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 1079296.61,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 87,
+    "descripcion": "Descripción de la obra número 114 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+124"
+    ],
+    "latitude": 20.145085,
+    "longitude": -88.351663
+  },
+  {
+    "id": 115,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2164067.02,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 31,
+    "descripcion": "Descripción de la obra número 115 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+35",
+      "https://placehold.co/600x400?text=Obra+66",
+      "https://placehold.co/600x400?text=Obra+129"
+    ],
+    "latitude": 21.219649,
+    "longitude": -90.03708
+  },
+  {
+    "id": 116,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1334842.67,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 95,
+    "descripcion": "Descripción de la obra número 116 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+69",
+      "https://placehold.co/600x400?text=Obra+118"
+    ],
+    "latitude": 21.239065,
+    "longitude": -88.569315
+  },
+  {
+    "id": 117,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1401088.47,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 76,
+    "descripcion": "Descripción de la obra número 117 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 20.688347,
+    "longitude": -89.238899
+  },
+  {
+    "id": 118,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1941094.06,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 57,
+    "descripcion": "Descripción de la obra número 118 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+99",
+      "https://placehold.co/600x400?text=Obra+134"
+    ],
+    "latitude": 21.431479,
+    "longitude": -88.734152
+  },
+  {
+    "id": 119,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 2038751.89,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 36,
+    "descripcion": "Descripción de la obra número 119 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+32",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+132"
+    ],
+    "latitude": 20.006344,
+    "longitude": -89.978695
+  },
+  {
+    "id": 120,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 2238686.85,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 99,
+    "descripcion": "Descripción de la obra número 120 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+34",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+139"
+    ],
+    "latitude": 21.332379,
+    "longitude": -89.69012
+  },
+  {
+    "id": 121,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1594713.15,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 46,
+    "descripcion": "Descripción de la obra número 121 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+28",
+      "https://placehold.co/600x400?text=Obra+66",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.750049,
+    "longitude": -90.030805
+  },
+  {
+    "id": 122,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1642007.77,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 45,
+    "descripcion": "Descripción de la obra número 122 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+73",
+      "https://placehold.co/600x400?text=Obra+144"
+    ],
+    "latitude": 21.376261,
+    "longitude": -88.79194
+  },
+  {
+    "id": 123,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 2359119.51,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 30,
+    "descripcion": "Descripción de la obra número 123 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+138"
+    ],
+    "latitude": 20.154148,
+    "longitude": -88.728451
+  },
+  {
+    "id": 124,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1624876.66,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 80,
+    "descripcion": "Descripción de la obra número 124 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+6",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+123"
+    ],
+    "latitude": 21.161828,
+    "longitude": -89.435125
+  },
+  {
+    "id": 125,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1695923.05,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 125 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+41",
+      "https://placehold.co/600x400?text=Obra+71",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 21.149835,
+    "longitude": -90.293455
+  },
+  {
+    "id": 126,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1930520.12,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 50,
+    "descripcion": "Descripción de la obra número 126 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 20.942033,
+    "longitude": -88.052816
+  },
+  {
+    "id": 127,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 2288985.44,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 87,
+    "descripcion": "Descripción de la obra número 127 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+24",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 20.456273,
+    "longitude": -88.264173
+  },
+  {
+    "id": 128,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 867158.75,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 42,
+    "descripcion": "Descripción de la obra número 128 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+11",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+116"
+    ],
+    "latitude": 20.889946,
+    "longitude": -88.589579
+  },
+  {
+    "id": 129,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 2458669.48,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 13,
+    "descripcion": "Descripción de la obra número 129 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+27",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+128"
+    ],
+    "latitude": 20.626389,
+    "longitude": -89.816813
+  },
+  {
+    "id": 130,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 854696.57,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 36,
+    "descripcion": "Descripción de la obra número 130 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+81",
+      "https://placehold.co/600x400?text=Obra+137"
+    ],
+    "latitude": 21.034317,
+    "longitude": -89.223769
+  },
+  {
+    "id": 131,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1190734.14,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 34,
+    "descripcion": "Descripción de la obra número 131 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+98",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 21.320167,
+    "longitude": -88.749766
+  },
+  {
+    "id": 132,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 2294287.61,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 84,
+    "descripcion": "Descripción de la obra número 132 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+88",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 21.236842,
+    "longitude": -88.498383
+  },
+  {
+    "id": 133,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 2306693.6,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 99,
+    "descripcion": "Descripción de la obra número 133 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+57",
+      "https://placehold.co/600x400?text=Obra+132"
+    ],
+    "latitude": 20.761978,
+    "longitude": -88.908328
+  },
+  {
+    "id": 134,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1656163.06,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 19,
+    "descripcion": "Descripción de la obra número 134 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+92",
+      "https://placehold.co/600x400?text=Obra+108"
+    ],
+    "latitude": 20.408699,
+    "longitude": -88.710052
+  },
+  {
+    "id": 135,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1426042.03,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 38,
+    "descripcion": "Descripción de la obra número 135 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+67",
+      "https://placehold.co/600x400?text=Obra+141"
+    ],
+    "latitude": 21.252136,
+    "longitude": -90.021625
+  },
+  {
+    "id": 136,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 2358206.67,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 24,
+    "descripcion": "Descripción de la obra número 136 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+49",
+      "https://placehold.co/600x400?text=Obra+79",
+      "https://placehold.co/600x400?text=Obra+138"
+    ],
+    "latitude": 21.252794,
+    "longitude": -89.458132
+  },
+  {
+    "id": 137,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1587078.19,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 22,
+    "descripcion": "Descripción de la obra número 137 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+42",
+      "https://placehold.co/600x400?text=Obra+68",
+      "https://placehold.co/600x400?text=Obra+136"
+    ],
+    "latitude": 21.21226,
+    "longitude": -89.758553
+  },
+  {
+    "id": 138,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1991340.65,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 41,
+    "descripcion": "Descripción de la obra número 138 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+32",
+      "https://placehold.co/600x400?text=Obra+85",
+      "https://placehold.co/600x400?text=Obra+149"
+    ],
+    "latitude": 20.420326,
+    "longitude": -90.355952
+  },
+  {
+    "id": 139,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2464723.86,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 22,
+    "descripcion": "Descripción de la obra número 139 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+9",
+      "https://placehold.co/600x400?text=Obra+74",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 20.142549,
+    "longitude": -90.187932
+  },
+  {
+    "id": 140,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1952797.78,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 51,
+    "descripcion": "Descripción de la obra número 140 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+143"
+    ],
+    "latitude": 20.343625,
+    "longitude": -90.348826
+  },
+  {
+    "id": 141,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1398208.96,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 81,
+    "descripcion": "Descripción de la obra número 141 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+47",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+112"
+    ],
+    "latitude": 20.367789,
+    "longitude": -88.264539
+  },
+  {
+    "id": 142,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1688755.57,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 11,
+    "descripcion": "Descripción de la obra número 142 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+36",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 20.301977,
+    "longitude": -88.337084
+  },
+  {
+    "id": 143,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2301164.48,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 67,
+    "descripcion": "Descripción de la obra número 143 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+64",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 20.379647,
+    "longitude": -88.882189
+  },
+  {
+    "id": 144,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 884124.67,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 66,
+    "descripcion": "Descripción de la obra número 144 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+3",
+      "https://placehold.co/600x400?text=Obra+89",
+      "https://placehold.co/600x400?text=Obra+109"
+    ],
+    "latitude": 20.083347,
+    "longitude": -89.204912
+  },
+  {
+    "id": 145,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1278443.62,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 72,
+    "descripcion": "Descripción de la obra número 145 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+43",
+      "https://placehold.co/600x400?text=Obra+95",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 20.785232,
+    "longitude": -88.123011
+  },
+  {
+    "id": 146,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2381839.44,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 52,
+    "descripcion": "Descripción de la obra número 146 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+27",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 21.458355,
+    "longitude": -89.134927
+  },
+  {
+    "id": 147,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1771269.22,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 94,
+    "descripcion": "Descripción de la obra número 147 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+41",
+      "https://placehold.co/600x400?text=Obra+68",
+      "https://placehold.co/600x400?text=Obra+106"
+    ],
+    "latitude": 20.594797,
+    "longitude": -89.341604
+  },
+  {
+    "id": 148,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1526023.83,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 11,
+    "descripcion": "Descripción de la obra número 148 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+49",
+      "https://placehold.co/600x400?text=Obra+72",
+      "https://placehold.co/600x400?text=Obra+106"
+    ],
+    "latitude": 20.7327,
+    "longitude": -89.868508
+  },
+  {
+    "id": 149,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1380671.96,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 76,
+    "descripcion": "Descripción de la obra número 149 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+117"
+    ],
+    "latitude": 20.225387,
+    "longitude": -88.585292
+  },
+  {
+    "id": 150,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1379463.16,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 55,
+    "descripcion": "Descripción de la obra número 150 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+31",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+121"
+    ],
+    "latitude": 21.413227,
+    "longitude": -90.238382
+  },
+  {
+    "id": 151,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1642739.12,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 77,
+    "descripcion": "Descripción de la obra número 151 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+4",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+150"
+    ],
+    "latitude": 21.280613,
+    "longitude": -88.939387
+  },
+  {
+    "id": 152,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 2316472.44,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 82,
+    "descripcion": "Descripción de la obra número 152 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+44",
+      "https://placehold.co/600x400?text=Obra+58",
+      "https://placehold.co/600x400?text=Obra+118"
+    ],
+    "latitude": 20.232749,
+    "longitude": -90.481437
+  },
+  {
+    "id": 153,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1417642.99,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 39,
+    "descripcion": "Descripción de la obra número 153 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+37",
+      "https://placehold.co/600x400?text=Obra+75",
+      "https://placehold.co/600x400?text=Obra+104"
+    ],
+    "latitude": 20.227325,
+    "longitude": -88.028363
+  },
+  {
+    "id": 154,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1807815.54,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 90,
+    "descripcion": "Descripción de la obra número 154 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+131"
+    ],
+    "latitude": 20.352149,
+    "longitude": -89.208993
+  },
+  {
+    "id": 155,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1676627.22,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 28,
+    "descripcion": "Descripción de la obra número 155 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+48",
+      "https://placehold.co/600x400?text=Obra+77",
+      "https://placehold.co/600x400?text=Obra+123"
+    ],
+    "latitude": 20.450913,
+    "longitude": -88.086868
+  },
+  {
+    "id": 156,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1384594.98,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 62,
+    "descripcion": "Descripción de la obra número 156 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+25",
+      "https://placehold.co/600x400?text=Obra+97",
+      "https://placehold.co/600x400?text=Obra+116"
+    ],
+    "latitude": 20.408219,
+    "longitude": -88.261967
+  },
+  {
+    "id": 157,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 2106713.32,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 157 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+26",
+      "https://placehold.co/600x400?text=Obra+60",
+      "https://placehold.co/600x400?text=Obra+114"
+    ],
+    "latitude": 21.379232,
+    "longitude": -89.252862
+  },
+  {
+    "id": 158,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1539989.06,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 24,
+    "descripcion": "Descripción de la obra número 158 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+9",
+      "https://placehold.co/600x400?text=Obra+88",
+      "https://placehold.co/600x400?text=Obra+127"
+    ],
+    "latitude": 21.278763,
+    "longitude": -89.335258
+  },
+  {
+    "id": 159,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 808136.13,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 95,
+    "descripcion": "Descripción de la obra número 159 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+119"
+    ],
+    "latitude": 20.472323,
+    "longitude": -89.287187
+  },
+  {
+    "id": 160,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1935212.16,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 34,
+    "descripcion": "Descripción de la obra número 160 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+14",
+      "https://placehold.co/600x400?text=Obra+61",
+      "https://placehold.co/600x400?text=Obra+142"
+    ],
+    "latitude": 20.177077,
+    "longitude": -89.959394
+  },
+  {
+    "id": 161,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1215991.29,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 56,
+    "descripcion": "Descripción de la obra número 161 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+44",
+      "https://placehold.co/600x400?text=Obra+51",
+      "https://placehold.co/600x400?text=Obra+129"
+    ],
+    "latitude": 20.712963,
+    "longitude": -88.535854
+  },
+  {
+    "id": 162,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 2306100.42,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 34,
+    "descripcion": "Descripción de la obra número 162 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+110"
+    ],
+    "latitude": 20.709065,
+    "longitude": -90.262403
+  },
+  {
+    "id": 163,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 1853962.56,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 14,
+    "descripcion": "Descripción de la obra número 163 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+27",
+      "https://placehold.co/600x400?text=Obra+79",
+      "https://placehold.co/600x400?text=Obra+123"
+    ],
+    "latitude": 20.15574,
+    "longitude": -89.873819
+  },
+  {
+    "id": 164,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1690240.23,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 164 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+46",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+141"
+    ],
+    "latitude": 20.491758,
+    "longitude": -90.392048
+  },
+  {
+    "id": 165,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1359910.5,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 98,
+    "descripcion": "Descripción de la obra número 165 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+7",
+      "https://placehold.co/600x400?text=Obra+79",
+      "https://placehold.co/600x400?text=Obra+106"
+    ],
+    "latitude": 20.12528,
+    "longitude": -88.586932
+  },
+  {
+    "id": 166,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1431903.2,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 68,
+    "descripcion": "Descripción de la obra número 166 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+24",
+      "https://placehold.co/600x400?text=Obra+70",
+      "https://placehold.co/600x400?text=Obra+116"
+    ],
+    "latitude": 20.630023,
+    "longitude": -88.597062
+  },
+  {
+    "id": 167,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2232904.53,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 26,
+    "descripcion": "Descripción de la obra número 167 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+131"
+    ],
+    "latitude": 20.651053,
+    "longitude": -88.671638
+  },
+  {
+    "id": 168,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2079409.21,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 67,
+    "descripcion": "Descripción de la obra número 168 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+50",
+      "https://placehold.co/600x400?text=Obra+81",
+      "https://placehold.co/600x400?text=Obra+141"
+    ],
+    "latitude": 20.016409,
+    "longitude": -90.297311
+  },
+  {
+    "id": 169,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1360042.76,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 87,
+    "descripcion": "Descripción de la obra número 169 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+1",
+      "https://placehold.co/600x400?text=Obra+56",
+      "https://placehold.co/600x400?text=Obra+119"
+    ],
+    "latitude": 21.206067,
+    "longitude": -88.407957
+  },
+  {
+    "id": 170,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 1356503.62,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 22,
+    "descripcion": "Descripción de la obra número 170 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+48",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+135"
+    ],
+    "latitude": 20.3651,
+    "longitude": -90.093783
+  },
+  {
+    "id": 171,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1468858.05,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 171 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+44",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+116"
+    ],
+    "latitude": 21.327371,
+    "longitude": -90.438589
+  },
+  {
+    "id": 172,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 961201.93,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 100,
+    "descripcion": "Descripción de la obra número 172 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+31",
+      "https://placehold.co/600x400?text=Obra+93",
+      "https://placehold.co/600x400?text=Obra+127"
+    ],
+    "latitude": 20.021713,
+    "longitude": -89.061654
+  },
+  {
+    "id": 173,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1084651.92,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 70,
+    "descripcion": "Descripción de la obra número 173 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+9",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+134"
+    ],
+    "latitude": 21.494269,
+    "longitude": -89.138318
+  },
+  {
+    "id": 174,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1355408.46,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 39,
+    "descripcion": "Descripción de la obra número 174 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+22",
+      "https://placehold.co/600x400?text=Obra+59",
+      "https://placehold.co/600x400?text=Obra+119"
+    ],
+    "latitude": 20.672038,
+    "longitude": -89.592568
+  },
+  {
+    "id": 175,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 2025566.05,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 87,
+    "descripcion": "Descripción de la obra número 175 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+26",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+110"
+    ],
+    "latitude": 20.411708,
+    "longitude": -90.239133
+  },
+  {
+    "id": 176,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2430576.9,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 40,
+    "descripcion": "Descripción de la obra número 176 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+13",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+109"
+    ],
+    "latitude": 20.492791,
+    "longitude": -88.533527
+  },
+  {
+    "id": 177,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1525518.24,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 43,
+    "descripcion": "Descripción de la obra número 177 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+12",
+      "https://placehold.co/600x400?text=Obra+76",
+      "https://placehold.co/600x400?text=Obra+130"
+    ],
+    "latitude": 20.821219,
+    "longitude": -89.55953
+  },
+  {
+    "id": 178,
+    "nombre_municipio": "Valladolid",
+    "nombre_de_obra": "Rehabilitación de unidad deportiva",
+    "inversion": 2338389.05,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 99,
+    "descripcion": "Descripción de la obra número 178 ubicada en Valladolid.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+20",
+      "https://placehold.co/600x400?text=Obra+54",
+      "https://placehold.co/600x400?text=Obra+109"
+    ],
+    "latitude": 20.097664,
+    "longitude": -90.325889
+  },
+  {
+    "id": 179,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 2183806.24,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 28,
+    "descripcion": "Descripción de la obra número 179 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+86",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 20.822566,
+    "longitude": -89.30708
+  },
+  {
+    "id": 180,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Rehabilitación de parque",
+    "inversion": 2356443.61,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 27,
+    "descripcion": "Descripción de la obra número 180 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+97",
+      "https://placehold.co/600x400?text=Obra+148"
+    ],
+    "latitude": 21.140053,
+    "longitude": -89.613247
+  },
+  {
+    "id": 181,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2225811.16,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 54,
+    "descripcion": "Descripción de la obra número 181 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+16",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+104"
+    ],
+    "latitude": 21.027471,
+    "longitude": -88.526113
+  },
+  {
+    "id": 182,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1348779.86,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 28,
+    "descripcion": "Descripción de la obra número 182 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+5",
+      "https://placehold.co/600x400?text=Obra+80",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 20.537231,
+    "longitude": -88.846337
+  },
+  {
+    "id": 183,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1541432.16,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 26,
+    "descripcion": "Descripción de la obra número 183 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+10",
+      "https://placehold.co/600x400?text=Obra+81",
+      "https://placehold.co/600x400?text=Obra+145"
+    ],
+    "latitude": 20.910668,
+    "longitude": -90.362741
+  },
+  {
+    "id": 184,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Construcción de biblioteca",
+    "inversion": 1318474.2,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 74,
+    "descripcion": "Descripción de la obra número 184 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+15",
+      "https://placehold.co/600x400?text=Obra+66",
+      "https://placehold.co/600x400?text=Obra+120"
+    ],
+    "latitude": 20.126258,
+    "longitude": -88.783525
+  },
+  {
+    "id": 185,
+    "nombre_municipio": "Progreso",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 2060636.99,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 91,
+    "descripcion": "Descripción de la obra número 185 ubicada en Progreso.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+4",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+140"
+    ],
+    "latitude": 20.64501,
+    "longitude": -89.28776
+  },
+  {
+    "id": 186,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Ampliación de red de agua potable",
+    "inversion": 1549855.74,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 47,
+    "descripcion": "Descripción de la obra número 186 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+26",
+      "https://placehold.co/600x400?text=Obra+94",
+      "https://placehold.co/600x400?text=Obra+146"
+    ],
+    "latitude": 20.638715,
+    "longitude": -89.058258
+  },
+  {
+    "id": 187,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Construcción de cancha techada",
+    "inversion": 1956900.99,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 49,
+    "descripcion": "Descripción de la obra número 187 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+25",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+150"
+    ],
+    "latitude": 20.171864,
+    "longitude": -88.602637
+  },
+  {
+    "id": 188,
+    "nombre_municipio": "Ticul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1758753.23,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 57,
+    "descripcion": "Descripción de la obra número 188 ubicada en Ticul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+2",
+      "https://placehold.co/600x400?text=Obra+63",
+      "https://placehold.co/600x400?text=Obra+115"
+    ],
+    "latitude": 20.772615,
+    "longitude": -90.344754
+  },
+  {
+    "id": 189,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Construcción de domo escolar",
+    "inversion": 1253001.65,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 18,
+    "descripcion": "Descripción de la obra número 189 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+4",
+      "https://placehold.co/600x400?text=Obra+91",
+      "https://placehold.co/600x400?text=Obra+141"
+    ],
+    "latitude": 20.112698,
+    "longitude": -90.15852
+  },
+  {
+    "id": 190,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 1843537.39,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 58,
+    "descripcion": "Descripción de la obra número 190 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+43",
+      "https://placehold.co/600x400?text=Obra+93",
+      "https://placehold.co/600x400?text=Obra+109"
+    ],
+    "latitude": 21.108776,
+    "longitude": -88.968261
+  },
+  {
+    "id": 191,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2171977.38,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 27,
+    "descripcion": "Descripción de la obra número 191 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+32",
+      "https://placehold.co/600x400?text=Obra+98",
+      "https://placehold.co/600x400?text=Obra+127"
+    ],
+    "latitude": 21.133117,
+    "longitude": -89.146653
+  },
+  {
+    "id": 192,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2316663.32,
+    "nombre_de_ejecutora": "INAH",
+    "avance": 42,
+    "descripcion": "Descripción de la obra número 192 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+20",
+      "https://placehold.co/600x400?text=Obra+71",
+      "https://placehold.co/600x400?text=Obra+105"
+    ],
+    "latitude": 21.295417,
+    "longitude": -88.099587
+  },
+  {
+    "id": 193,
+    "nombre_municipio": "Motul",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1040673.65,
+    "nombre_de_ejecutora": "SEDECULTA",
+    "avance": 95,
+    "descripcion": "Descripción de la obra número 193 ubicada en Motul.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+31",
+      "https://placehold.co/600x400?text=Obra+53",
+      "https://placehold.co/600x400?text=Obra+132"
+    ],
+    "latitude": 20.359923,
+    "longitude": -90.020255
+  },
+  {
+    "id": 194,
+    "nombre_municipio": "Umán",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2186395.04,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 87,
+    "descripcion": "Descripción de la obra número 194 ubicada en Umán.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+23",
+      "https://placehold.co/600x400?text=Obra+82",
+      "https://placehold.co/600x400?text=Obra+142"
+    ],
+    "latitude": 21.101795,
+    "longitude": -89.811045
+  },
+  {
+    "id": 195,
+    "nombre_municipio": "Peto",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 1105640.5,
+    "nombre_de_ejecutora": "JAPAY",
+    "avance": 41,
+    "descripcion": "Descripción de la obra número 195 ubicada en Peto.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+7",
+      "https://placehold.co/600x400?text=Obra+87",
+      "https://placehold.co/600x400?text=Obra+137"
+    ],
+    "latitude": 20.668096,
+    "longitude": -88.409355
+  },
+  {
+    "id": 196,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Rehabilitación de mercado",
+    "inversion": 2384937.69,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 18,
+    "descripcion": "Descripción de la obra número 196 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+40",
+      "https://placehold.co/600x400?text=Obra+93",
+      "https://placehold.co/600x400?text=Obra+111"
+    ],
+    "latitude": 21.487023,
+    "longitude": -89.690115
+  },
+  {
+    "id": 197,
+    "nombre_municipio": "Tekax",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 1760864.6,
+    "nombre_de_ejecutora": "SEGEY",
+    "avance": 36,
+    "descripcion": "Descripción de la obra número 197 ubicada en Tekax.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+17",
+      "https://placehold.co/600x400?text=Obra+83",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 21.356979,
+    "longitude": -88.669129
+  },
+  {
+    "id": 198,
+    "nombre_municipio": "Izamal",
+    "nombre_de_obra": "Pavimentación de calles",
+    "inversion": 2346682.8,
+    "nombre_de_ejecutora": "IDEFEEY",
+    "avance": 24,
+    "descripcion": "Descripción de la obra número 198 ubicada en Izamal.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+31",
+      "https://placehold.co/600x400?text=Obra+74",
+      "https://placehold.co/600x400?text=Obra+113"
+    ],
+    "latitude": 20.428488,
+    "longitude": -90.149122
+  },
+  {
+    "id": 199,
+    "nombre_municipio": "Tizimín",
+    "nombre_de_obra": "Rehabilitación de convento histórico",
+    "inversion": 1726111.29,
+    "nombre_de_ejecutora": "SOP",
+    "avance": 17,
+    "descripcion": "Descripción de la obra número 199 ubicada en Tizimín.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+18",
+      "https://placehold.co/600x400?text=Obra+64",
+      "https://placehold.co/600x400?text=Obra+118"
+    ],
+    "latitude": 20.192014,
+    "longitude": -88.155897
+  },
+  {
+    "id": 200,
+    "nombre_municipio": "Mérida",
+    "nombre_de_obra": "Renovación de alumbrado público",
+    "inversion": 2211202.27,
+    "nombre_de_ejecutora": "AYUNTAMIENTO",
+    "avance": 81,
+    "descripcion": "Descripción de la obra número 200 ubicada en Mérida.",
+    "imagenes": [
+      "https://placehold.co/600x400?text=Obra+25",
+      "https://placehold.co/600x400?text=Obra+100",
+      "https://placehold.co/600x400?text=Obra+107"
+    ],
+    "latitude": 20.959398,
+    "longitude": -88.374468
+  }
+]
