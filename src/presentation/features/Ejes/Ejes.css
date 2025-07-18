@@ -23,7 +23,8 @@
 }
 
 .card-eje-title {
-  color: var(--color-vino) !important;
+  color: var(--color-gris-oscuro-institucional) !important;
+  font-weight: 900 !important;
 }
 
 .card-eje-description {

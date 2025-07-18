@@ -39,8 +39,8 @@
   position: relative;
   z-index: 1;
   font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--color-vino);
+  font-weight: 900;
+  color: var(--color-gris-oscuro-institucional);
   text-align: center;
   padding-top: 2.5rem;
 }

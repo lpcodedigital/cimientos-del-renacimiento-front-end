@@ -41,7 +41,8 @@
 
 .transparencia-text h3 {
   margin-bottom: 1rem;
-  color: var(--color-vino);
+  color: var(--color-gris-oscuro-institucional);
+  font-weight: 900;
 }
 
 .transparencia-text p {
