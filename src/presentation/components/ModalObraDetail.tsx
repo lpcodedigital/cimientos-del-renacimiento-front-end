@@ -2,6 +2,7 @@ import { Modal, ModalFooter } from "react-bootstrap";
 import type { Obra } from "../../domain/models/Obra";
 import "swiper/css";
 import SwiperImage from "./SwiperImage";
+import "../styles/ModalObraDetail.css"
 
 type ModalObraDetailProps = {
     isShowing: boolean;
@@ -44,6 +45,8 @@ const ModalObraDetail: React.FC<ModalObraDetailProps> = ({ isShowing, onClose, o
                 </div>
             <Modal.Body>
                 {/* <p><strong>Obra:</strong> {obra.nombre_de_obra}</p><br /> */}
+                <div className="container-modal-body-obra-detail">
+
                 <p><strong>Municipio:</strong> {obra.nombre_municipio}</p><br />
                 <p><strong>Ejecutora:</strong> {obra.nombre_de_ejecutora}</p><br />
                 <p><strong>Inversión:</strong> {obra.inversion}</p><br />
@@ -51,6 +54,7 @@ const ModalObraDetail: React.FC<ModalObraDetailProps> = ({ isShowing, onClose, o
                 {obra.descripcion && <p><strong>Descripción:</strong> {obra.descripcion}</p>}
 
                 {obra.imagenes.length !== 0 ?  <SwiperImage images={obra.imagenes} /> : <p>No hay imágenes disponibles</p>}
+                </div>
                
 
             </Modal.Body>
