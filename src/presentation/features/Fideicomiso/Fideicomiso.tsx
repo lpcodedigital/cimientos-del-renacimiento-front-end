@@ -1,10 +1,12 @@
 import React from "react";
 import "./Fideicomiso.css"
+import TitleSection from "../../components/TitleSection";
 const Fideicomiso: React.FC = () => {
     return (
         <section id="Fideicomiso">
+            <TitleSection title="Cimientos del renacimiento" />
             <p>
-                <strong className="title-vino">CIMIENTOS DEL</strong> <strong className="title-mostaza">RENACIMIENTO </strong>
+                El programa cimientos del renacimiento,
                 busca mejorar las condiciones
                 laborales y de vida, de las y los obreros de la
                 construcción, con un enfoque de bienestar integral

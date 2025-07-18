@@ -38,7 +38,7 @@
     max-height: 32px;
   }
 
-  
+
   .hero .carousel-item img {
     height: auto !important;
     aspect-ratio: 16 / 9;
@@ -142,6 +142,7 @@ section:not(.hero) {
 .title-section {
   text-align: center;
   color: var(--color-mostaza);
+  font-weight: 900;
 }
 
 .button-btn-vino {
