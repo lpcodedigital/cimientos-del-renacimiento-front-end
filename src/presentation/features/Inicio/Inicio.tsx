@@ -8,7 +8,7 @@ import './Inicio.css'
 const Inicio: React.FC = () => {
     return (
 
-       <section id="Inicio">
+       <section id="Inicio" className="hero">
   <div className="carousel-container position-relative">
     <Carousel>
       <Carousel.Item>

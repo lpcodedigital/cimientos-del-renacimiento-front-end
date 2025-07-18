@@ -32,6 +32,35 @@
   font-style: normal;
 }
 
+/* Query Media para Teléfonos con pantallas pequeñas */
+@media (max-width: 768px) {
+  .logo-img {
+    max-height: 32px;
+  }
+
+  
+  .hero .carousel-item img {
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+    /* O lo que se ajuste a tu diseño */
+  }
+}
+
+/* Query Media para Tablets pantallas medianas */
+@media (min-width: 577px) and (max-width: 991px) {
+  .hero .carousel-item img {
+    height: auto !important; 
+  }
+}
+
+/* Query Media para Tablets pantallas grandes y algunas pantallas de laptop */
+@media (max-width: 1199px) {
+  .hero .carousel-item img {
+    height: auto !important;
+  }
+}
+
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -58,12 +87,6 @@ body {
   width: auto;
 }
 
-@media (max-width: 768px) {
-  .logo-img {
-    max-height: 32px;
-  }
-}
-
 .navbar-nav {
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -81,7 +104,8 @@ body {
 
 .navbar-nav button:hover,
 .navbar-nav a:hover {
-  color: #6d1233 !important; /* un tono más oscuro si quieres */
+  color: #6d1233 !important;
+  /* un tono más oscuro si quieres */
 }
 
 
@@ -94,6 +118,19 @@ footer {
   color: white;
   text-align: center;
   padding: 2rem;
+}
+
+.hero {
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.hero .carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 section:not(.hero) {
@@ -137,8 +174,8 @@ section:not(.hero) {
 }
 
 .button-btn-dorado {
-  background-color: var(--color-dorado-institucional)!important;
-  color: var(--color-gris-oscuro-institucional)!important;
+  background-color: var(--color-dorado-institucional) !important;
+  color: var(--color-gris-oscuro-institucional) !important;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -149,7 +186,7 @@ section:not(.hero) {
 }
 
 .button-btn-dorado:hover {
-  background-color: var(--color-dorado-oscuro-institucional)!important;
+  background-color: var(--color-dorado-oscuro-institucional) !important;
   transform: translateY(-2px);
 }
 
