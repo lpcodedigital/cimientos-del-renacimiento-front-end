@@ -67,12 +67,15 @@ const TablaMunicipiosConObras: React.FC = () => {
 
     <>
 
+      <div>
+
       <InputFiltroTabla
         busqueda={busqueda}
         onChange={(nuevoValor) => {
           setBusqueda(nuevoValor);
           setPaginaActual(1);
         }} />
+      </div>
 
       <Table striped bordered hover className="tabla-municipios-obras">
         <thead>

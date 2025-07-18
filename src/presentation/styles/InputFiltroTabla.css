@@ -2,8 +2,7 @@
 
 .contenedor-filtro {
   display: flex;
-  justify-content: flex-end;
-  /* <- alinea a la derecha */
+  justify-content: flex-end;  /* <- alinea a la derecha */
   margin-bottom: 10px;
 }
 
@@ -14,4 +13,10 @@
   max-width: 300px;
   border: 1px solid #ccc;
   border-radius: "4px"
+}
+
+@media (max-width: 768px) {
+  .contenedor-filtro {
+    justify-content: center;
+  }
 }
