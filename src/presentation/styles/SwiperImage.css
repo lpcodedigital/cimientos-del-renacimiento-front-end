@@ -2,10 +2,17 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: var(--color-dorado-institucional) !important; /* Cambia este valor por el color institucional */
+  color: var(--color-blanco) !important; /* Cambia este valor por el color institucional */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: var(--color-dorado-oscuro-institucional) !important;
+  color: var(--color-blanco) !important; /* blanco */
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9); /* sombra más intensa */
+  transform: scale(1.2); /* ligeramente más grande */
+  transition: all 0.2s ease-in-out;
 }
+
+
+
