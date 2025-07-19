@@ -62,7 +62,7 @@ const MarkerClusterLayer: React.FC = () => {
                                     setImagenesObra(obra.imagenes);
                                     setTituloObra(obra.nombre_de_obra)
                                 }} 
-                                className="button-btn-vino"
+                                className="button-btn-verde"
                             >
                                 Ver Imágenes
                             </button>

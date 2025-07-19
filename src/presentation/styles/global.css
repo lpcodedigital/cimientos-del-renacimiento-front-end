@@ -7,7 +7,8 @@
   --color-dorado-oscuro-institucional: #81663f;
   --color-gris-oscuro-institucional: #2D2829;
   --color-matiz-azulado: #eef2f5;
-  --color-verde-institucional: #377739;
+  --color-verde-institucional: #287F55;
+  --color-verde-oscuro-institucional: #1f5e3f;
   --color-gris-claro: #f1f1f1;
   --color-gris-oscuro1: #d3d4d5;
   --color-gris-oscuro1-hover: #c6c7c8;
@@ -159,6 +160,20 @@ section:not(.hero) {
 
 .button-btn-vino:hover {
   background-color: #6d1233;
+}
+
+.button-btn-verde {
+  background-color: var(--color-verde-institucional);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-btn-verde:hover {
+  background-color: var(--color-verde-oscuro-institucional);
 }
 
 .button-btn-modal-detalle {
