@@ -102,13 +102,17 @@ body {
 /* color de las titulos del navbar */
 .navbar-nav a,
 .navbar-nav button {
-  color: var(--color-vino) !important;
+  color: var(--color-gris-oscuro-institucional) !important;
 }
 
 .navbar-nav button:hover,
 .navbar-nav a:hover {
-  color: #6d1233 !important;
-  /* un tono más oscuro si quieres */
+  /* color: white; */
+  /* background-color: var(--color-blanco);
+  text-shadow: 0 0 1px black;
+  padding: 2px 4px;
+  border-radius: 4px; */
+  font-weight: 600;
 }
 
 
