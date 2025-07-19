@@ -17,3 +17,9 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+.modal-hidden {
+  opacity: 0 !important;
+  pointer-events: none;
+  transition: opacity 0.3s ease !important;
+}

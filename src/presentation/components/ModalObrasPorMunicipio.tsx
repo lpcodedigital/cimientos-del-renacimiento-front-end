@@ -15,7 +15,13 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
 
     return (
         <>
-            <Modal show={isShowing} onHide={onClose} size="lg" centered>
+            <Modal 
+                show={isShowing} 
+                onHide={onClose} 
+                size="lg" 
+                centered
+                className={obraSeleccionada ? 'modal-hidden' : ''}
+                >
 
                 <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
                     <Modal.Title>Obras en {municipio}</Modal.Title>
