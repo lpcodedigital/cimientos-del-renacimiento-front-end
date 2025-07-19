@@ -1,29 +1,35 @@
 /* Inicio Estilos para el contenedor de filtros */
 
+select option {
+  color: blue !important;
+  background-color: #f0f0f0;
+}
+
+
 .filter-container {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 1001;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(3px);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
 }
 
 #clear-filters {
-    margin-top: 10px;
-    background-color: var(--color-vino);
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
+  margin-top: 10px;
+  background-color: var(--color-gris-oscuro-institucional);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-#clear-filters:hover {
-    background-color: #6d1233;
+#clear-filters:active {
+  background-color: var(--color-gris-oscuro1-hover);
 }
 
 /* Ocultar por defecto en pantallas pequeñas */
@@ -42,35 +48,44 @@
     top: 20px;
     right: 15px;
     z-index: 1000;
-    background-color: var(--color-vino);
-    color: white;
-    border: none;
+    background-color: var(--color-blanco);
+    color: var(--color-gris-oscuro-institucional);
+    border: 1px solid var(--color-gris-oscuro-institucional);
     padding: 8px 12px;
     border-radius: 4px;
     cursor: pointer;
   }
 
-  .close-filter-btn{
+  .toggle-filter-btn:hover {
+    background-color: var(--color-gris-oscuro1-hover);
+  }
+
+  .close-filter-btn {
     display: block;
     float: right;
-    background: var(--color-vino);
-    color: white;
+    background: var(--color-blanco);
+    color: var(--color-gris-oscuro-institucional);
+    border: 1px solid var(--color-gris-oscuro-institucional);
     border-radius: 4px;
     padding: 5px 10px;
     cursor: pointer;
-    border: none;
-}
-}
-
-/* En pantallas grandes, ocultar el botón */
-@media (min-width: 769px) {
-  .toggle-filter-btn {
-    display: none;
   }
 
-  .close-filter-btn{
-    display: none;
+  .close-filter-btn:hover {
+    background-color: var(--color-gris-oscuro1-hover);
+    /* color: var(--color-blanco); */
   }
 }
 
-/* Finaliza Estilos para el contenedor de filtros */
+  /* En pantallas grandes, ocultar el botón */
+  @media (min-width: 769px) {
+    .toggle-filter-btn {
+      display: none;
+    }
+
+    .close-filter-btn {
+      display: none;
+    }
+  }
+
+  /* Finaliza Estilos para el contenedor de filtros */
