@@ -4,14 +4,13 @@ const Footer: React.FC = () => {
         <footer id="Contacto" className="footer-contact">
   <div className="footer-container">
     <div className="footer-info">
-      <p className="footer-title">Cimientos del Renacimiento</p>
-      <p>SIB secretaría de infraestructura para el bienestar</p>
-      <p>Dirección: Calle 61 #414 por 46 y 48, Centro, Mérida, Yucatán</p>
-      <p>Teléfono: (999) 930-33-50</p>
-      <p>Correo: <a href="mailto:contacto@sib.yucatan.gob.mx">contacto@sib.yucatan.gob.mx</a></p>
+      <h2 className="footer-title">Secretaría de Infraestructura para el Bienestar</h2>
+      <p>Calle 61 #414 por 46 y 48, Centro, Mérida, Yucatán</p>
+      <p>(999) 930-33-50</p>
+      <p> <a href="mailto:contacto@sib.yucatan.gob.mx">contacto@sib.yucatan.gob.mx</a></p>
     </div>
     <div className="footer-copy">
-      <p>&copy; 2025 Cimientos del Renacimiento | Gobierno de Yucatán</p>
+      <p>Gobierno del Estado de Yucatán</p>
     </div>
   </div>
 </footer>
