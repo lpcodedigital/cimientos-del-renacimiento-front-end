@@ -53,7 +53,7 @@
 
 .btn-descargar {
   display: inline-block;
-  background-color: var(--color-vino);
+  background-color: var(--color-verde-institucional);
   color: white;
   text-decoration: none;
   padding: 8px 16px;
@@ -63,7 +63,7 @@
 }
 
 .btn-descargar:hover {
-  background-color: #6d1233;
+  background-color: var(--color-verde-oscuro-institucional);
 }
 
 @media (max-width: 768px) {
