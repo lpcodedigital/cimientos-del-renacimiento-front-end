@@ -178,7 +178,7 @@ section:not(.hero) {
 
 .button-btn-modal-detalle {
   float: right;
-  background-color: var(--color-vino);
+  background-color: var(--color-verde-institucional);
   color: white;
   border: none;
   padding: 6px 12px;
@@ -188,7 +188,7 @@ section:not(.hero) {
 }
 
 .button-btn-modal-detalle:hover {
-  background-color: #6d1233;
+  background-color: var(--color-verde-oscuro-institucional);
 }
 
 .button-btn-dorado {

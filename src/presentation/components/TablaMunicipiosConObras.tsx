@@ -92,7 +92,7 @@ const TablaMunicipiosConObras: React.FC = () => {
                 <td>{value.nombre}</td>
                 <td>{value.totalObras}</td>
                 <td>
-                  <button className="button-btn-vino" onClick={() => { setMunicipioSeleccionado(value.nombre); setObrasMunicipioSeleccionado(value.obras); }}>Ver Obras</button>
+                  <button className="button-btn-verde" onClick={() => { setMunicipioSeleccionado(value.nombre); setObrasMunicipioSeleccionado(value.obras); }}>Ver Obras</button>
                 </td>
               </tr>
 
