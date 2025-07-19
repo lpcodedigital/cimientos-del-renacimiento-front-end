@@ -7,12 +7,18 @@
 }
 
 .paginacion button {
-  background-color: var(--color-vino);
+  background-color: var(--color-gris-oscuro-institucional);
   color: white;
   border: none;
   padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.paginacion button:not(:disabled):hover {
+  background-color: var(--color-blanco);
+  color: var(--color-gris-oscuro-institucional);
+  border: 1px solid var(--color-gris-oscuro-institucional);
 }
 
 .paginacion button:disabled {
