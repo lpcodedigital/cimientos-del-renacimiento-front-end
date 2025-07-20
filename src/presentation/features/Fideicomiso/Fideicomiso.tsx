@@ -6,22 +6,19 @@ const Fideicomiso: React.FC = () => {
         <section id="Fideicomiso">
             <TitleSection title="Cimientos del renacimiento" />
             <p>
-                El programa cimientos del renacimiento,
-                busca mejorar las condiciones
-                laborales y de vida, de las y los obreros de la
-                construcción, con un enfoque de bienestar integral
-                alineado al Plan Estatal de Desarrollo Renacimiento
-                Maya 2024-2030 y al programa Aliados por la Vida.
+                Cimientos del Renacimiento es un programa orientado a mejorar las condiciones laborales y de
+                vida de las y los obreros de la construcción, mediante un enfoque de bienestar integral. Se encuentra alineado al Plan Estatal de Desarrollo Renacimiento Maya 2024–2030 y al programa
+                Aliados por la Vida.
 
                 <br />
                 <br />
-                Creado mediante el Decreto 80/2025. Sustituye al programa 'Dignificar'.
-                Cuenta con fideicomiso y reglas de operación.
+                Fue establecido mediante el Decreto 80/2025, en sustitución del programa Dignificar, y opera
+                bajo un fideicomiso con reglas de operación específicas.
                 <br />
                 <br />
-                Su objetivo es contribuir al bienestar de las y los trabajadores de la construcción y sus
-                familias, incluyendo seguridad laboral, salud, profesionalización y prevención
-                de adicciones.
+                El programa tiene como objetivo principal contribuir al bienestar de las y los trabajadores de la
+                construcción y sus familias, impulsando acciones en materia de seguridad laboral, salud,
+                profesionalización y prevención de adicciones.
             </p>
 
         </section>
