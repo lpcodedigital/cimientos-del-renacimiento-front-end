@@ -5,7 +5,7 @@ import TablaMunicipiosConObras from "../../components/TablaMunicipiosConObras";
 const Municipios: React.FC = () => {
     return (
         <section id="Municipios">
-            <TitleSection title="Municipios con Obras" />
+            <TitleSection title="Municipios con obras" />
 
             <TablaMunicipiosConObras />
         </section>

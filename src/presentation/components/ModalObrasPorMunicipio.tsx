@@ -57,7 +57,7 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
                                 {obra.nombre_de_obra}
                                 <button
                                     onClick={() => setObraSeleccionada(obra)}
-                                    className="button-btn-modal-detalle">Ver Detalle</button>
+                                    className="button-btn-modal-detalle">Ver detalles</button>
                             </li>
                         )) : (
                             <li className="list-group-item obra-link">
