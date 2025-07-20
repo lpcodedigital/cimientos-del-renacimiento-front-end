@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import logo from "../../assets/img/logo-yucatan.png"
+import logo from "../../assets/img/logo-yucatan.svg"
 import { Container, Nav, Navbar, Image } from "react-bootstrap"
 
 const Menu: React.FC = () => {
