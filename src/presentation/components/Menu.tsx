@@ -42,7 +42,7 @@ const Menu: React.FC = () => {
         <Navbar.Collapse in={menuAbierto} id="basic-navbar-nav" className="flex-grow-1">
           <Nav className="ms-auto d-flex flex-wrap gap-2">
             <Nav.Link as="button" onClick={() => handleScrollTo("Inicio")}>Inicio</Nav.Link>
-            <Nav.Link as="button" onClick={() => handleScrollTo("Fideicomiso")}>Cimientos del renacimiento</Nav.Link>
+            <Nav.Link as="button" onClick={() => handleScrollTo("Fideicomiso")}>Cimientos del Renacimiento</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Ejes")}>Ejes</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Avance")}>Avance</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Mapa")}>Mapa</Nav.Link>
