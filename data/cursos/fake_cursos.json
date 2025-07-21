@@ -1,0 +1,118 @@
+{
+  "page": 1,
+  "per_page": 10,
+  "total": 7,
+  "total_pages": 1,
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Capacitación en Seguridad Laboral",
+      "descripcion": "Curso impartido para trabajadores del Parque Recreativo.",
+      "municipio": "Mérida",
+      "fecha": "2024-06-15",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Seguridad+1",
+          "descripcion": "Taller de seguridad en obra."
+        },
+        {
+          "url": "https://placehold.co/600x400?text=Seguridad+2",
+          "descripcion": "Equipo de protección personal."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Uso de maquinaria pesada",
+      "descripcion": "Curso especializado para maquinaria CAT.",
+      "municipio": "Progreso",
+      "fecha": "2024-06-20",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Maquinaria+1",
+          "descripcion": "Práctica con retroexcavadora."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Introducción al urbanismo",
+      "descripcion": "Diseño urbano para espacios públicos.",
+      "municipio": "Valladolid",
+      "fecha": "2024-06-25",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Urbanismo+1",
+          "descripcion": "Sesión teórica en aula."
+        }
+      ]
+    },{
+      "id": 4,
+      "nombre": "Gestión de Residuos de Construcción",
+      "descripcion": "Prácticas ecológicas en obras.",
+      "municipio": "Tizimín",
+      "fecha": "2024-07-01",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Residuos+1",
+          "descripcion": "Separación de residuos en obra."
+        },
+        {
+          "url": "https://placehold.co/600x400?text=Residuos+2",
+          "descripcion": "Contenedores ecológicos."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Manejo de Herramientas Manuales",
+      "descripcion": "Uso seguro y eficiente de herramientas.",
+      "municipio": "Tekax",
+      "fecha": "2024-07-05",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Herramientas+1",
+          "descripcion": "Ejercicios prácticos con herramientas."
+        },
+        {
+          "url": "https://placehold.co/600x400?text=Herramientas+2",
+          "descripcion": "Demostración en campo."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Topografía Básica",
+      "descripcion": "Curso de nivelación y mediciones.",
+      "municipio": "Izamal",
+      "fecha": "2024-07-10",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Topografia+1",
+          "descripcion": "Uso de teodolito."
+        },
+        {
+          "url": "https://placehold.co/600x400?text=Topografia+2",
+          "descripcion": "Medición en campo abierto."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Repabimentación Básica",
+      "descripcion": "Curso de asfaltico y mediciones.",
+      "municipio": "Ticul",
+      "fecha": "2024-02-01",
+      "imagenes": [
+        {
+          "url": "https://placehold.co/600x400?text=Repabimentación+1",
+          "descripcion": "Uso de teodolito."
+        },
+        {
+          "url": "https://placehold.co/600x400?text=Repabimentación+2",
+          "descripcion": "Medición en campo abierto."
+        }
+      ]
+    }
+  ]
+}
