@@ -1,43 +1,23 @@
-
-import { useEffect, useState } from "react";
-import useCursos from "../../../infrastructure/hooks/useCursos";
+import type React from "react";
+import Menu from "../../components/Menu";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import TitleSection from "../../components/TitleSection";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Virtual } from "swiper/modules";
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-// import required modules
 import CursoCard from "../../components/CursoCard";
-// import type { CursoElement } from "../../../domain/models/Curso";
-
+import useCursos from "../../../infrastructure/hooks/useCursos";
 import "./Cursos.css";
-import { Modal, ModalFooter } from "react-bootstrap";
+import { useEffect, useState } from "react";
 import type { CursoElement } from "../../../domain/models/Curso";
+import { Modal, ModalFooter } from "react-bootstrap";
 import SwiperImage from "../../components/SwiperImage";
-import { Link } from "react-router-dom";
 
-// import { Button, Modal } from "react-bootstrap";
-
-
-
-const Cursos: React.FC = () => {
-
-
+const CursosPage: React.FC = () => {
 
     const { data, loading, error } = useCursos();
 
-    // Estado principal
-    // const [isGridModalOpen, setGridModalOpen] = useState(false);
     const [isDetalleModalOpen, setDetalleModalOpen] = useState(false);
     const [cursoSeleccionado, setCursoSeleccionado] = useState<CursoElement | null>(null);
     const [imagenes, setImagenes] = useState<string[]>([]);
-
-    // const navigate = useNavigate();
 
     useEffect(() => {
         if (cursoSeleccionado && cursoSeleccionado.imagenes.length > 0) {
@@ -52,47 +32,18 @@ const Cursos: React.FC = () => {
 
     if (error) return <p>Error al cargar los cursos: {error}</p>;
 
-
     return (
         <>
-            <section id="Cursos">
+            <Header />
+            <main>
+                <Menu />
                 <TitleSection title="Cursos" />
+                <div className="curso-grid">
 
-                <div className="w-full py-8">
-                    <Swiper
-                        pagination={{ clickable: true }}
-                        spaceBetween={30}
-                        slidesPerView={3}
-                        slidesPerGroup={3}
-                        // lazy={true}
-                        modules={[Navigation, Pagination, Virtual]}
-                        navigation={true}
-                        breakpoints={{
-                            320: { slidesPerView: 1 },
-                            768: { slidesPerView: 2 },
-                            1024: { slidesPerView: 3 },
-                        }}
-                    >
-                        {data?.cursos.map((curso) => (
-                            <SwiperSlide key={curso.id}>
-                                <CursoCard curso={curso} onClick={() => { setDetalleModalOpen(true); setCursoSeleccionado(curso); }} />
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-
-                    <div className="flex justify-center mt-4 text-center">
-                        {/* <button
-                            onClick={() => navigate("/CursosPage")}
-                            className="button-btn-verde">
-                            Ver todos los cursos
-                        </button> */}
-                        <Link to="/CursosPage" target="_blank" className="button-btn-verde">
-                            Ver todos los cursos
-                        </Link>
-                    </div>
-
+                    {data?.cursos.map((curso) => (
+                        <CursoCard key={curso.id} curso={curso} onClick={() => { setDetalleModalOpen(true); setCursoSeleccionado(curso); }} />
+                    ))}
                 </div>
-
 
                 <Modal show={isDetalleModalOpen} onHide={() => setDetalleModalOpen(false)} size="xl" centered>
                     <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
@@ -144,13 +95,11 @@ const Cursos: React.FC = () => {
                     </ModalFooter>
                 </Modal>
 
-
-            </section>
-
-
+            </main>
+            <Footer />
 
         </>
-    );
+    )
 }
 
-export default Cursos;
+export default CursosPage;
