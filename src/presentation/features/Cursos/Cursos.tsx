@@ -86,7 +86,7 @@ const Cursos: React.FC = () => {
                             className="button-btn-verde">
                             Ver todos los cursos
                         </button> */}
-                        <Link to="/CursosPage" target="_blank" className="button-btn-verde">
+                        <Link to="/CursosPage" className="button-btn-verde">
                             Ver todos los cursos
                         </Link>
                     </div>
