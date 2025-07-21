@@ -10,6 +10,7 @@ import Transparencia from "../features/Transparencia/Transparencia"
 import Menu from "../components/Menu"
 import Fideicomiso from "../features/Fideicomiso/Fideicomiso"
 import Georeferencia from "../features/Mapa/Georeferencia"
+import Cursos from "../features/Cursos/Cursos"
 function Home () {
     return (
     <>
@@ -20,6 +21,7 @@ function Home () {
                 <Fideicomiso/>
                 <Ejes/>
                 <Avance/>
+                <Cursos/>
                 <Georeferencia/>
                 <Municipios/>
                 <Transparencia/>

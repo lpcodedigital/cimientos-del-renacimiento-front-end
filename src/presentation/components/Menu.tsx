@@ -45,6 +45,7 @@ const Menu: React.FC = () => {
             <Nav.Link as="button" onClick={() => handleScrollTo("Fideicomiso")}>Cimientos del Renacimiento</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Ejes")}>Ejes</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Avance")}>Avance</Nav.Link>
+            <Nav.Link as="button" onClick={() => handleScrollTo("Cursos")}>Cursos</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Mapa")}>Mapa</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Municipios")}>Municipios</Nav.Link>
             <Nav.Link as="button" onClick={() => handleScrollTo("Transparencia")}>Transparencia</Nav.Link>
