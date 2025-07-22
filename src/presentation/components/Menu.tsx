@@ -38,7 +38,7 @@ const Menu: React.FC = () => {
       <Navbar sticky="top" expand="lg" className="bg-body-tertiary px-3">
         <Container fluid className="d-flex align-items-center justify-content-between">
           {/* Logo */}
-          <Navbar.Brand href="#Inicio" className="d-flex align-items-center flex-shrink-0 me-3">
+          <Navbar.Brand href="#" className="d-flex align-items-center flex-shrink-0 me-3">
             <Image src={logo} alt="Escudo de Yucatán" className="logo-img" />
           </Navbar.Brand>
 
