@@ -14,7 +14,7 @@ function App() {
     //   </Routes>
     // </BrowserRouter>
 
-    <HashRouter basename={basename}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/CursosPage" element={<CursosPage />} />
