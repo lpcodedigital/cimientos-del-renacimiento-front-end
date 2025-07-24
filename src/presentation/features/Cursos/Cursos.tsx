@@ -20,6 +20,7 @@ import { Modal, ModalFooter } from "react-bootstrap";
 import type { CursoElement } from "../../../domain/models/Curso";
 import SwiperImage from "../../components/SwiperImage";
 import { Link, useNavigate } from "react-router-dom";
+import formatDate from "../../components/utils/formatDate";
 
 // import { Button, Modal } from "react-bootstrap";
 
@@ -127,7 +128,7 @@ const Cursos: React.FC = () => {
                         <div className="container-modal-body-obra-detail">
 
                             <p><strong>Municipio:</strong> {cursoSeleccionado?.municipio}</p><br />
-                            <p><strong>Fecha:</strong> {cursoSeleccionado?.fecha}</p><br />
+                            <p><strong>Fecha:</strong> {formatDate(cursoSeleccionado?.fecha)}</p><br />
                             {cursoSeleccionado?.descripcion && <p><strong>Descripción:</strong> {cursoSeleccionado?.descripcion}</p>}
 
                             {imagenes.length !== 0 && (

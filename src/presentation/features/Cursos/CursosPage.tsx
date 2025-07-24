@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import type { CursoElement } from "../../../domain/models/Curso";
 import { Modal, ModalFooter } from "react-bootstrap";
 import SwiperImage from "../../components/SwiperImage";
+import formatDate from "../../components/utils/formatDate";
 
 const CursosPage: React.FC = () => {
 
@@ -78,7 +79,7 @@ const CursosPage: React.FC = () => {
                         <div className="container-modal-body-obra-detail">
 
                             <p><strong>Municipio:</strong> {cursoSeleccionado?.municipio}</p><br />
-                            <p><strong>Fecha:</strong> {cursoSeleccionado?.fecha}</p><br />
+                            <p><strong>Fecha:</strong> {formatDate(cursoSeleccionado?.fecha)}</p><br />
                             {cursoSeleccionado?.descripcion && <p><strong>Descripción:</strong> {cursoSeleccionado?.descripcion}</p>}
 
                             {imagenes.length !== 0 && (
