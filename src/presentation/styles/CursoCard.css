@@ -48,11 +48,11 @@
 
 /* Color normal */
 .swiper-pagination-bullet {
-  background-color: var(--color-verde-institucional); /* Cambia a tu color */
+  background-color: var(--color-gris-oscuro1); /* Cambia a tu color */
   opacity: 1; /* Para que no se vean atenuadas */
 }
 
 /* Color activo */
 .swiper-pagination-bullet-active {
-  background-color: var(--color-verde-oscuro-institucional); /* Cambia a tu color activo */
+  background-color: var(--color-vino); /* Cambia a tu color activo */
 }
