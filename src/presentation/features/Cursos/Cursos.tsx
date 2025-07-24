@@ -19,7 +19,7 @@ import "./Cursos.css";
 import { Modal, ModalFooter } from "react-bootstrap";
 import type { CursoElement } from "../../../domain/models/Curso";
 import SwiperImage from "../../components/SwiperImage";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 // import { Button, Modal } from "react-bootstrap";
 
@@ -37,7 +37,7 @@ const Cursos: React.FC = () => {
     const [cursoSeleccionado, setCursoSeleccionado] = useState<CursoElement | null>(null);
     const [imagenes, setImagenes] = useState<string[]>([]);
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (cursoSeleccionado && cursoSeleccionado.imagenes.length > 0) {
@@ -81,14 +81,14 @@ const Cursos: React.FC = () => {
                     </Swiper>
 
                     <div className="flex justify-center mt-4 text-center">
-                        {/* <button
+                        <button
                             onClick={() => navigate("/CursosPage")}
                             className="button-btn-verde">
                             Ver todos los cursos
-                        </button> */}
-                        <Link to="/CursosPage" className="button-btn-verde">
+                        </button>
+                        {/* <Link to="/CursosPage" className="button-btn-verde">
                             Ver todos los cursos
-                        </Link>
+                        </Link> */}
                     </div>
 
                 </div>

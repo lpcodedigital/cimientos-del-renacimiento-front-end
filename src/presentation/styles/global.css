@@ -175,7 +175,7 @@ section:not(.hero) {
   color: white;
   border: none;
   padding: 6px 12px;
-  border-radius: 4px;
+  border-radius: var(--bs-border-radius-pill)!important;
   cursor: pointer;
   font-weight: 500;
 }
@@ -190,7 +190,7 @@ section:not(.hero) {
   color: white;
   border: none;
   padding: 6px 12px;
-  border-radius: 4px;
+  border-radius: var(--bs-border-radius-pill)!important;
   cursor: pointer;
   font-weight: 500;
 }
