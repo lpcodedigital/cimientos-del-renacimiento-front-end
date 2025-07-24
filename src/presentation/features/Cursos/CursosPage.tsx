@@ -38,6 +38,8 @@ const CursosPage: React.FC = () => {
             <Header />
             <main>
                 <Menu />
+                <section id="allcursos">
+
                 <TitleSection title="Cursos" />
                 <div className="curso-grid">
 
@@ -95,6 +97,7 @@ const CursosPage: React.FC = () => {
 
                     </ModalFooter>
                 </Modal>
+                </section>
 
             </main>
             <Footer />
