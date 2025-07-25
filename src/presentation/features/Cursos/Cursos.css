@@ -1,3 +1,5 @@
+
+
 /* .modal-overlay {
   position: fixed;
   top: 0;
@@ -47,15 +49,34 @@
   max-width: 1000px;
 } */
 
+/* @media (max-width: 767px) {
+  .curso-grid {
+    display: grid!important;
+  grid-template-columns:auto !important;
+  gap: 1.5rem !important;
+  padding: 1.5rem !important;
+  }
+} */
+
+/* Para pantallas pequeñas (menores a 768px) */
+@media (max-width: 767px) {
+  .curso-grid {
+    grid-template-columns: 1fr!important;  /* Una sola columna adaptable */
+    padding: 1rem !important;
+    gap: 1rem !important;
+  }
+}
+
+
 .modal-body {
   overflow: visible !important;
   position: relative; /* para que los botones con position absolute se posicionen bien */
 }
 
-
 .curso-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   gap: 1.5rem;
   padding: 1.5rem;
 }
+
