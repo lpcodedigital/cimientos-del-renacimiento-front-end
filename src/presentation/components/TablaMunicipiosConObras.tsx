@@ -9,6 +9,7 @@ import '../styles/TablaMunicipiosConObras.css'
 import ModalObrasPorMunicipio from "./ModalObrasPorMunicipio";
 import InputFiltroTabla from "./InputFiltroTabla";
 import PaginacionTabla from "./PaginacionTabla";
+import NormalizeText from "./utils/NormalizeText";
 
 const TablaMunicipiosConObras: React.FC = () => {
 
@@ -56,10 +57,10 @@ const TablaMunicipiosConObras: React.FC = () => {
    refTable.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
 }, [paginaActual]);
 
-  const normalizarTexto = (texto: string): string => texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  //const normalizarTexto = (texto: string): string => texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
   const municipiosFiltrados = municipiosConObras.filter((muni) =>
-    normalizarTexto(muni.nombre).includes(normalizarTexto(busqueda))
+    NormalizeText(muni.nombre).includes(NormalizeText(busqueda))
   );
 
   const totalPaginas = Math.ceil(municipiosFiltrados.length / elementosPorPagina)
