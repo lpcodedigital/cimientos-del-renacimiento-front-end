@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useMemo, useState } from "react";
 import { Table } from "react-bootstrap";
 import useObras from "../../infrastructure/hooks/useObras";
@@ -20,6 +20,8 @@ const TablaMunicipiosConObras: React.FC = () => {
   const [paginaActual, setPaginaActual] = useState<number>(1);
   const elementosPorPagina = 20;
   const [busqueda, setBusqueda] = useState("");
+
+  const refTable = useRef<HTMLDivElement>(null);
 
   const municipiosConObras = useMemo(() => {
 
@@ -50,6 +52,10 @@ const TablaMunicipiosConObras: React.FC = () => {
 
   }, [geoData, obras])
 
+  useEffect(() => {
+   refTable.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+}, [paginaActual]);
+
   const normalizarTexto = (texto: string): string => texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
   const municipiosFiltrados = municipiosConObras.filter((muni) =>
@@ -77,39 +83,44 @@ const TablaMunicipiosConObras: React.FC = () => {
         }} />
       </div>
 
-      <Table striped bordered hover className="tabla-municipios-obras">
-        <thead>
-          <tr>
-            <th>Municipio</th>
-            <th>Total de Obras</th>
-            <th>Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          {municipiosPorPagina.map((value, idx) => (
-            <React.Fragment key={idx}>
-              <tr key={idx}>
-                <td>{value.nombre}</td>
-                <td>{value.totalObras}</td>
-                <td>
-                  <button className="button-btn-verde" onClick={() => { setMunicipioSeleccionado(value.nombre); setObrasMunicipioSeleccionado(value.obras); }}>Ver obras</button>
-                </td>
-              </tr>
+      <div ref={refTable} className="contenedor-tabla-municipios-obras">
 
-            </React.Fragment>
-          ))}
-        </tbody>
-        <tfoot>
+        <Table striped bordered hover className="tabla-municipios-obras">
+          <thead>
+            <tr>
+              <th>Municipio</th>
+              <th>Total de Obras</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            {municipiosPorPagina.map((value, idx) => (
+              <React.Fragment key={idx}>
+                <tr key={idx}>
+                  <td>{value.nombre}</td>
+                  <td>{value.totalObras}</td>
+                  <td>
+                    <button className="button-btn-verde" onClick={() => { setMunicipioSeleccionado(value.nombre); setObrasMunicipioSeleccionado(value.obras); }}>Ver obras</button>
+                  </td>
+                </tr>
 
-          <PaginacionTabla
-            paginaActual={paginaActual}
-            totalPaginas={totalPaginas}
-            onPaginaAnterior={() => setPaginaActual(paginaActual - 1)}
-            onPaginaSiguiente={() => setPaginaActual(paginaActual + 1)}
-          />
+              </React.Fragment>
+            ))}
+          </tbody>
+          <tfoot>
 
-        </tfoot>
-      </Table>
+              <PaginacionTabla
+                paginaActual={paginaActual}
+                totalPaginas={totalPaginas}
+                onPaginaAnterior={() => setPaginaActual(paginaActual - 1)}
+                onPaginaSiguiente={() => setPaginaActual(paginaActual + 1)}
+              />
+
+
+          </tfoot>
+        </Table>
+      </div>
+
       <ModalObrasPorMunicipio
         isShowing={!!municipioSeleccionado}
         municipio={municipioSeleccionado || ''}
