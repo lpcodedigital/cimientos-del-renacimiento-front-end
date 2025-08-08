@@ -10,11 +10,13 @@ import ModalObrasPorMunicipio from "./ModalObrasPorMunicipio";
 import InputFiltroTabla from "./InputFiltroTabla";
 import PaginacionTabla from "./PaginacionTabla";
 import NormalizeText from "./utils/NormalizeText";
+import usePagination from "../hooks/usePagination";
 
 const TablaMunicipiosConObras: React.FC = () => {
 
   const { geoData, loading: loadingGeo, error: errorGeo } = useGeoZona()
   const { obras, loading: loadingObras, error: errorObras } = useObras();
+  
   const [municipioSeleccionado, setMunicipioSeleccionado] = useState<string | null>(null);
   const [obrasMunicipioSeleccionado, setObrasMunicipioSeleccionado] = useState<Obra[] | null>(null);
 
@@ -57,15 +59,11 @@ const TablaMunicipiosConObras: React.FC = () => {
    refTable.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
 }, [paginaActual]);
 
-  //const normalizarTexto = (texto: string): string => texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-
   const municipiosFiltrados = municipiosConObras.filter((muni) =>
     NormalizeText(muni.nombre).includes(NormalizeText(busqueda))
   );
 
-  const totalPaginas = Math.ceil(municipiosFiltrados.length / elementosPorPagina)
-
-  const municipiosPorPagina = municipiosFiltrados.slice((paginaActual - 1) * elementosPorPagina, paginaActual * elementosPorPagina);
+  const { totalPages: totalPaginas, items: municipiosPorPagina } = usePagination(municipiosFiltrados, paginaActual, elementosPorPagina);
 
   if (loadingGeo || loadingObras) return <p>Loading...</p>;
   if (errorGeo || errorObras) return <p>Error al cargar las obras: {errorGeo || errorObras}</p>;
