@@ -4,19 +4,19 @@ import { Table } from "react-bootstrap";
 import useObras from "../../infrastructure/hooks/useObras";
 import useGeoZona from "../../infrastructure/hooks/useGeoZona";
 import type { Obra } from "../../domain/models/Obra";
-import { getMunicipios } from "../../domain/services/municipioService";
 import '../styles/TablaMunicipiosConObras.css'
 import ModalObrasPorMunicipio from "./ModalObrasPorMunicipio";
 import InputFiltroTabla from "./InputFiltroTabla";
 import PaginacionTabla from "./PaginacionTabla";
 import NormalizeText from "./utils/NormalizeText";
 import usePagination from "../hooks/usePagination";
+import { obtenerObrasPorMunicipioService } from "../../domain/services/obtenerObrasPorMunicipioService";
 
 const TablaMunicipiosConObras: React.FC = () => {
 
   const { geoData, loading: loadingGeo, error: errorGeo } = useGeoZona()
   const { obras, loading: loadingObras, error: errorObras } = useObras();
-  
+
   const [municipioSeleccionado, setMunicipioSeleccionado] = useState<string | null>(null);
   const [obrasMunicipioSeleccionado, setObrasMunicipioSeleccionado] = useState<Obra[] | null>(null);
 
@@ -26,43 +26,27 @@ const TablaMunicipiosConObras: React.FC = () => {
 
   const refTable = useRef<HTMLDivElement>(null);
 
+  // Obtener municipios con obras usando useMemo para evitar recalculos innecesarios
   const municipiosConObras = useMemo(() => {
 
-    if (!geoData || !obras) return [];
-
-    const obrasPorMunicipio: Record<string, Obra[]> = {};
-
-    for (const obra of obras) {
-      const municipio = obra.nombre_municipio;
-      if (!obrasPorMunicipio[municipio]) {
-        obrasPorMunicipio[municipio] = [];
-      }
-      obrasPorMunicipio[municipio].push(obra);
-    }
-
-    const municipios = getMunicipios(geoData).map((municipio) => {
-      const nombre = municipio;
-      const obrasMunicipio = obrasPorMunicipio[municipio] || [];
-
-      return {
-        nombre,
-        totalObras: obrasMunicipio.length,
-        obras: obrasMunicipio
-      }
-    })
-
-    return municipios.sort((a, b) => a.nombre.localeCompare(b.nombre));
+    return obtenerObrasPorMunicipioService(geoData, obras);
 
   }, [geoData, obras])
 
+  
   useEffect(() => {
-   refTable.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
-}, [paginaActual]);
+    // Desplazarse al final de la tabla
+    refTable.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
 
+  }, [paginaActual]);
+
+  // Filtrar municipios por busqueda
   const municipiosFiltrados = municipiosConObras.filter((muni) =>
+    // Normalizamos el nombre del municipio y la busqueda
     NormalizeText(muni.nombre).includes(NormalizeText(busqueda))
   );
 
+  // Hook de paginacion personalizado que devuelve los municipios de la pagina actual y el total de paginas
   const { totalPages: totalPaginas, items: municipiosPorPagina } = usePagination(municipiosFiltrados, paginaActual, elementosPorPagina);
 
   if (loadingGeo || loadingObras) return <p>Loading...</p>;
@@ -74,12 +58,12 @@ const TablaMunicipiosConObras: React.FC = () => {
 
       <div>
 
-      <InputFiltroTabla
-        busqueda={busqueda}
-        onChange={(nuevoValor) => {
-          setBusqueda(nuevoValor);
-          setPaginaActual(1);
-        }} />
+        <InputFiltroTabla
+          busqueda={busqueda}
+          onChange={(nuevoValor) => {
+            setBusqueda(nuevoValor);
+            setPaginaActual(1);
+          }} />
       </div>
 
       <div ref={refTable} className="contenedor-tabla-municipios-obras">
@@ -108,12 +92,12 @@ const TablaMunicipiosConObras: React.FC = () => {
           </tbody>
           <tfoot>
 
-              <PaginacionTabla
-                paginaActual={paginaActual}
-                totalPaginas={totalPaginas}
-                onPaginaAnterior={() => setPaginaActual(paginaActual - 1)}
-                onPaginaSiguiente={() => setPaginaActual(paginaActual + 1)}
-              />
+            <PaginacionTabla
+              paginaActual={paginaActual}
+              totalPaginas={totalPaginas}
+              onPaginaAnterior={() => setPaginaActual(paginaActual - 1)}
+              onPaginaSiguiente={() => setPaginaActual(paginaActual + 1)}
+            />
 
 
           </tfoot>

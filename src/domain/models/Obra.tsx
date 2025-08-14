@@ -11,4 +11,9 @@ export interface Obra {
     longitude: number;
 }
 
+export interface MunicipioConObras{
+    nombre: string,
+    totalObras: number,
+    obras: Obra[]
+}
 
