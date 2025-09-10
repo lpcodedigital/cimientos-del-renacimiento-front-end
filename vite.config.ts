@@ -5,5 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   //base: '/front-end-cimientos-del-renacimiento/', //manolo-94
-  base: '/cimientos-del-renacimiento-front-end/', //lpcodedigital
+  //base: '/cimientos-del-renacimiento-front-end/', //lpcodedigital
+  base: './', // clave :rutas relativas para producion
 })
