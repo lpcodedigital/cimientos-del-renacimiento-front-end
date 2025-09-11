@@ -2,7 +2,12 @@ version: '3.8'
 
 services:
   frontend:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod # target=prod para producion
+      args:
+        NODE_ENV: production
     container_name: frontend-cimientos-del-renacimiento-container
     ports:
       - "3000:80"

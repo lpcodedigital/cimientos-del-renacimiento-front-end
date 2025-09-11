@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev # target=dev para desarrollo
+    container_name: frontend-cimientos-del-renacimiento-container-dev
+    ports:
+      - "5173:5173" # puerto host:puerto contenedor
+    volumes:
+      - .:/app # Monta el código fuente en el contenedor para hot-reload
+      - /app/node_modules
+    command: yarn dev --host 0.0.0.0
+    restart: always
