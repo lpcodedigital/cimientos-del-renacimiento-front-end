@@ -40,13 +40,13 @@ Además, está dockerizada para facilitar el levantamiento de entornos de **desa
 ## 🐳 Uso con Docker
 
 1. Levantar entorno de desarrollo con hot-reload habilitado
-    docker-compose up --build
+    docker compose up --build
     # El proyecto se ejecutara en http://localhost:5173
     # Para detener: Ctrl + C
     # Para eliminar contenedores: docker-compose down
 
 2. Levantar entorno de producción
-    docker-compose -f docker-compose.yml up -d --build
+    docker compose -f docker-compose.yml up -d --build
     # El proyecto se ejecutara en http://localhost:3000
     # Para detener: docker-compose -f docker-compose.yml down
     # Para ver logs: docker-compose -f docker-compose.yml logs -f

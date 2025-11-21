@@ -11,4 +11,4 @@ services:
     container_name: frontend-cimientos-del-renacimiento-container
     ports:
       - "3000:80"
-    restart: always
+    restart: no

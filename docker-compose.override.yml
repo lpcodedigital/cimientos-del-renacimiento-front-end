@@ -13,4 +13,4 @@ services:
       - .:/app # Monta el código fuente en el contenedor para hot-reload
       - /app/node_modules
     command: yarn dev --host 0.0.0.0
-    restart: always
+    restart: no
