@@ -1,60 +1,38 @@
-###### Etapa 1: build (Stage 1) build para producción ######
-
-#construir la app con Node + Yarn
-FROM node:22 AS build
+# ==========================================
+# 🏗️ ETAPA 1: Build (Construcción)
+# ==========================================
+FROM node:22-alpine AS build
 WORKDIR /app
 
-# Copiamos package.json y yarn.lock primero (cache de dependencias)
-COPY package.json yarn.lock ./
+# Cache de dependencias
+COPY package.json yarn.lock* ./
+RUN yarn install --frozen-lockfile --network-timeout 1000000
 
-# Instalamos dependencias
-RUN yarn install
-
-# Copiamos todo el código
+# Copiamos código y construimos
 COPY . .
+RUN yarn build
 
-#Argumento para controlar el entorno
-ARG NODE_ENV=production
-
-# Construimos el proyecto solo si es producción
-RUN if ["$NODE_ENV" = "production" ]; then yarn build; fi
-
-###### Etapa 2: producción (Stage 2) app optimizada ######
-
-#servir la app con Nginx
+# ==========================================
+# 🚀 ETAPA 2: Producción (Nginx)
+# ==========================================
 FROM nginx:alpine AS prod
-
-# Copiamos el build generado al directorio público de Nginx
+# Limpiamos el directorio por defecto de nginx
+RUN rm -rf /usr/share/nginx/html/*
+# Copiamos el build generado en la etapa anterior
 COPY --from=build /app/dist /usr/share/nginx/html
-
-# Copiamos configuración personalizada de Nginx
+# Copiamos la configuración personalizada de Nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Exponemos el puerto 80
 EXPOSE 80
-
-# Comando por defecto de Nginx
 CMD ["nginx", "-g", "daemon off;"]
 
-###### Etapa 3: desarrollo (Stage 3) vite dev server con  hot reload ######
-
-# Contruimos la app para desarrollo con Node
+# ==========================================
+# 🛠️ ETAPA 3: Desarrollo (Vite Hot Reload)
+# ==========================================
 FROM node:22-alpine AS dev
-
-# Establecemos el directorio de trabajo
 WORKDIR /app
-
-# Copiamos package.json y yarn.lock primero (cache de dependencias)
-COPY package.json yarn.lock ./
-
-# Instalamos dependencias
-RUN yarn install
-
-# Copiamos todo el código
+COPY package.json yarn.lock* ./
+RUN yarn install --network-timeout 1000000
 COPY . .
-
-# Esponemos el puerto 80 
-EXPOSE 80
-
-# Comando por defecto para desarrollo
+EXPOSE 5173
 CMD ["yarn", "dev", "--host", "0.0.0.0"]

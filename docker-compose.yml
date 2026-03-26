@@ -8,7 +8,8 @@ services:
       target: prod # target=prod para producion
       args:
         NODE_ENV: production
-    container_name: frontend-cimientos-del-renacimiento-container
+    image: cimientos-del-renacimineto-publico-prod
+    container_name: frontend-cimientos-del-renacimiento-container-prod
     ports:
       - "3000:80"
     restart: no
