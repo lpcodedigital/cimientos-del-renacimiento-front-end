@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: dev # target=dev para desarrollo
+    image: cimientos-del-renacimineto-publico-dev
     container_name: frontend-cimientos-del-renacimiento-container-dev
     ports:
       - "5173:5173" # puerto host:puerto contenedor
