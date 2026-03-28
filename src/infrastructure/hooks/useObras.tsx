@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import type { Obra } from "../../domain/models/Obra";
-import fetchObras from "../api/obras/obrasApi";
+import type { ObraMapaDTO } from "../../domain/models/Obra";
+import { fetchObrasMapa } from "../api/obras/obrasApi";
 
 /**
  * Custom hook to fetch and manage the state of obras data.
@@ -13,20 +13,19 @@ import fetchObras from "../api/obras/obrasApi";
 
 const useObras = () => {
      
-    const [obras, setObras] = useState<Obra[]>([]);
+    const [obras, setObras] = useState<ObraMapaDTO[]>([]);
     const [loading, setLoading] = useState<boolean>(true); 
     const [error, setError] = useState<string | null>(null);
      
     useEffect( () => {
-        fetchObras().then((response) => {
-            setObras(response);
-            setLoading(false);
-        }).catch((error) => {
-            setError(error.message);
-            setLoading(false);
-        }).finally(() => {
-            setLoading(false);
-        });
+        fetchObrasMapa()
+            .then((response) => {
+                setObras(response);
+            }).catch((error) => {
+                setError(error.message || "Error al conectar con el servidor");
+            }).finally(() => {
+                setLoading(false);
+            });
         
     }, []);   
 

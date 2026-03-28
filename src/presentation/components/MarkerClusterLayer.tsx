@@ -6,17 +6,25 @@ import MarkerCustomIcon from "./MarkerCustomIcon";
 import "../styles/Galeria.css"
 import { useState } from "react";
 import ModalGaleria from "./ModalGaleria";
+import { useObraDetalle } from "../../infrastructure/hooks/useObraDetalle";
+import type { ObraMapaDTO } from "../../domain/models/Obra";
 
 
 const MarkerClusterLayer: React.FC = () => {
 
-    const { obras, loading, error } = useObras();
-    const [ showModal, setShowModal ] = useState<boolean>(false);
-    const [ imagenesObra, setImagenesObra ] = useState<string[]>([]);
-    const [ tituloObra, setTituloObra] = useState<string>('');
+   const { obras, loading: loadingMapa } = useObras();
+    const { obra, loading: loadingDetalle, getDetalle } = useObraDetalle();
+    
+    const [showModal, setShowModal] = useState(false);
+    // Controlamos qué marcador tiene el popup abierto
+    const [selectedMapa, setSelectedMapa] = useState<ObraMapaDTO | null>(null);
 
-    if (loading) return <p>Loading...</p>;
-    if (error) return <p>Error al cargar las obras: {error}</p>;
+    const handleMarkerClick = (o: ObraMapaDTO) => {
+        setSelectedMapa(o);
+        getDetalle(o.id);
+    };
+
+    if (loadingMapa) return null;
 
     // Crea un ícono de cluster personalizado
     const createCustomClusterIcon = (cluster: any) => {
@@ -33,54 +41,71 @@ const MarkerClusterLayer: React.FC = () => {
         });
     };
 
+
     return (
-        <MarkerClusterGroup iconCreateFunction={createCustomClusterIcon}>
-            {obras.map((obra, index) => {
-
-                if (!obra.latitude || !obra.longitude) return null;
-
-                return (
+        <>
+            <MarkerClusterGroup 
+            iconCreateFunction={createCustomClusterIcon}
+                chunkedLoading 
+                removeOutsideVisibleBounds={false}
+                // @ts-ignore - Algunas versiones de tipos de cluster tienen conflictos menores
+                animate={false} 
+            >
+                {obras.map((o) => (
                     <Marker
-                        key={index}
-                        position={[obra.latitude, obra.longitude]}
+                        key={`marker-${o.id}`}
+                        position={[o.latitude, o.longitude]}
                         icon={MarkerCustomIcon()}
-                    >
-                        <Popup
-                            autoClose={false}
-                            closeOnClick={false}
-                        >
-                            <strong>Obra:{obra.nombre_de_obra}</strong><br />
-                            <b>Municipio: {obra.nombre_municipio}</b><br />
-                            <b>Ejecutora: {obra.nombre_de_ejecutora}</b><br />
-                            <b>Inversión: {obra.inversion}</b><br />
-                            <b>Avance: {obra.avance} %</b><br />
-                            <small>Descripción: {obra.descripcion}</small><br />
-                            {obra.imagenes.length !== 0 ? 
-                            <button
-                                onClick={ () => {
-                                    setShowModal(true);
-                                    setImagenesObra(obra.imagenes);
-                                    setTituloObra(obra.nombre_de_obra)
-                                }} 
-                                className="button-btn-verde"
-                            >
-                                Ver Imágenes
-                            </button>
-                            : <p>No hay imágenes</p>}
-                            
-                        </Popup>
-                    </Marker>
-                )
-            })}
+                        eventHandlers={{
+                            click: () => handleMarkerClick(o)
+                        }}
+                    />
+                ))}
+            </MarkerClusterGroup>
+
+            {/* POPUP ÚNICO: Se posiciona dinámicamente */}
+            {selectedMapa && (
+                <Popup
+                    position={[selectedMapa.latitude, selectedMapa.longitude]}
+                    eventHandlers={{
+                        remove: () => setSelectedMapa(null) // 💡 'remove' es el evento correcto en Leaflet
+                    }}
+                >
+                    <div style={{ minWidth: '200px' }}>
+                        <h6 style={{ margin: 0 }}>{selectedMapa.name}</h6>
+                        <small>{selectedMapa.municipality}</small>
+                        <hr />
+                        
+                        {loadingDetalle ? (
+                            <p>⌛ Cargando detalles...</p>
+                        ) : obra && obra.id === selectedMapa.id ? (
+                            <div className="animate-fade-in">
+                                <p style={{ fontSize: '0.8rem' }}>
+                                    <b>Inversión:</b> ${obra.investment.toLocaleString()}<br />
+                                    <b>Avance:</b> {obra.progress}%
+                                </p>
+                                <button
+                                    className="button-btn-verde w-100"
+                                    onClick={() => setShowModal(true)}
+                                >
+                                    Ver Imágenes
+                                </button>
+                            </div>
+                        ) : (
+                            <p className="small">Error al cargar datos</p>
+                        )}
+                    </div>
+                </Popup>
+            )}
+
             <ModalGaleria
                 isShowing={showModal}
                 onClose={() => setShowModal(false)}
-                title={tituloObra}
-                imagenes={imagenesObra}
+                title={obra?.name || ""}
+                imagenes={obra?.images.map(img => img.url) || []}
             />
-        </MarkerClusterGroup>
-        
-    )
+        </>
+    );
 
 }
 
