@@ -51,8 +51,8 @@ const MapaObras = () => {
     }, [municipioSeleccionado, geoData]);
 
     // Validacione para cargar el geojson
-    if (loading) return <p>Loading...</p>;
-    if (error) return <p>Error: {error}</p>;
+    if (loading) return <div className="loading-map">Cargando capas geográficas...</div>;
+    if (error) return <div className="error-map">Error: {error}</div>;
 
     // Obtenemos los nombres de los municipios
     const municipios = getMunicipios(geoData)
@@ -78,6 +78,8 @@ const MapaObras = () => {
                 zoom={8}
                 scrollWheelZoom={true}
                 style={{ height: '500px', width: '100%' }}
+                trackResize={true} 
+                zoomControl={true}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
@@ -91,13 +93,20 @@ const MapaObras = () => {
                     // Mostramos el popup con el nombre del municipio
                     onEachFeature={(feature, layer) => {
                         const municipio = feature.properties?.NOMGEO;
-                        layer.on("click", () =>
-                            layer.bindPopup(`<strong>${municipio}</strong>`).openPopup()
-                        );
-                        layer.on("mouseover", (e) =>
-                            layer.bindPopup(`<strong>${municipio}</strong>`).openPopup(e.latlng)
-                        );
-                        layer.on("mouseout", () => layer.closePopup());
+                        // 💡 SOLUCIÓN AL CONFLICTO DE POPUPS:
+                        // Usamos Tooltip para municipios. Así no cierran el Popup de las obras.
+                        layer.bindTooltip(`<strong>${municipio}</strong>`, {
+                            sticky: true,
+                            direction: 'top',
+                            opacity: 0.9
+                        });
+
+                        // El clic en el municipio ahora es informativo o funcional, 
+                        // pero no compite por el Popup global.
+                        layer.on("click", (e) => {
+                            L.DomEvent.stopPropagation(e);
+                            setMunicipioSeleccionado(municipio);
+                        });
 
                     }}
 

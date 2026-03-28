@@ -1,5 +1,5 @@
 import { Modal, ModalFooter } from "react-bootstrap";
-import type { Obra } from "../../domain/models/Obra";
+import type { ObraResponseDTO } from "../../domain/models/Obra";
 import "swiper/css";
 import SwiperImage from "./SwiperImage";
 import "../styles/ModalObraDetail.css"
@@ -7,7 +7,7 @@ import "../styles/ModalObraDetail.css"
 type ModalObraDetailProps = {
     isShowing: boolean;
     onClose: () => void
-    obra: Obra
+    obra: ObraResponseDTO
 }
 
 
@@ -17,7 +17,7 @@ const ModalObraDetail: React.FC<ModalObraDetailProps> = ({ isShowing, onClose, o
 
         <Modal show={isShowing} onHide={onClose} size="xl" centered>
             <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
-                    <Modal.Title>Detalles de la obra: {obra.nombre_de_obra}</Modal.Title>
+                    <Modal.Title>Detalles de la obra: {obra.name}</Modal.Title>
 
                     <button
                         type="button"
@@ -47,13 +47,13 @@ const ModalObraDetail: React.FC<ModalObraDetailProps> = ({ isShowing, onClose, o
                 {/* <p><strong>Obra:</strong> {obra.nombre_de_obra}</p><br /> */}
                 <div className="container-modal-body-obra-detail">
 
-                <p><strong>Municipio:</strong> {obra.nombre_municipio}</p><br />
-                <p><strong>Ejecutora:</strong> {obra.nombre_de_ejecutora}</p><br />
-                <p><strong>Inversión:</strong> {obra.inversion}</p><br />
-                <p><strong>Avance:</strong> {obra.avance} %</p><br />
-                {obra.descripcion && <p><strong>Descripción:</strong> {obra.descripcion}</p>}
+                <p><strong>Municipio:</strong> {obra.municipality}</p><br />
+                <p><strong>Ejecutora:</strong> {obra.agency}</p><br />
+                <p><strong>Inversión:</strong> {obra.investment}</p><br />
+                <p><strong>Avance:</strong> {obra.progress} %</p><br />
+                {obra.description && <p><strong>Descripción:</strong> {obra.description}</p>}
 
-                {obra.imagenes.length !== 0 ?  <SwiperImage images={obra.imagenes} /> : <p>No hay imágenes disponibles</p>}
+                {obra.images.length !== 0 ?  <SwiperImage images={obra.images.map((img) => img.url) || []} /> : <p>No hay imágenes disponibles</p>}
                 </div>
                
 
