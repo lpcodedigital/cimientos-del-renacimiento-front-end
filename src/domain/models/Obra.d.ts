@@ -35,3 +35,12 @@ export interface MunicipioConObras{
     obras: Obra[]
 }
 
+export interface ObraLinkDTO {
+    id: number;
+    name: string;
+}
+
+export interface MunicipioStadDTO {
+    nombre: string;
+    totalObras: number;
+}
