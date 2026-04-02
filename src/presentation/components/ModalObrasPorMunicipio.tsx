@@ -1,17 +1,27 @@
 import { Modal, ModalFooter } from "react-bootstrap";
-import type { Obra } from "../../domain/models/Obra";
-import { useState } from "react";
+import type { ObraResponseDTO as Obra } from "../../domain/models/Obra";
+import { useEffect, useState } from "react";
 import ModalObraDetail from "./ModalObraDetail";
+import { useObrasPorMunicipio } from "../../infrastructure/hooks/useObrasPorMunicipio";
 
 type ModalObrasPorMunicipioProps = {
     isShowing: boolean;
     onClose: () => void;
     municipio: string;
-    obras: Obra[];
+    //obras: Obra[];
 }
-const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowing, onClose, municipio, obras }) => {
+const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowing, onClose, municipio }) => {
 
-    const [obraSeleccionada, setObraSeleccionada] = useState<Obra | null>(null);
+    //const [obraSeleccionada, setObraSeleccionada] = useState<Obra | null>(null);
+
+    const { obras, loading, getObras} = useObrasPorMunicipio();
+    const [idSeleccionado, setIdSeleccionado] = useState<number | null>(null);
+
+    useEffect(() => {
+        if (isShowing && municipio) {
+            getObras(municipio);
+        }
+    }, [isShowing, municipio]);
 
     return (
         <>
@@ -20,7 +30,7 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
                 onHide={onClose} 
                 size="lg" 
                 centered
-                className={obraSeleccionada ? 'modal-hidden' : ''}
+                className={idSeleccionado ? 'modal-hidden' : ''}
                 >
 
                 <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
@@ -53,10 +63,10 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
                 <Modal.Body>
                     <ul className="list-group">
                         { obras.length !== 0 ? obras.map((obra, idx) => (
-                            <li key={obra.id} onClick={() => setObraSeleccionada(obra)} className="list-group-item obra-link" data-id={obra.id} data-mun={municipio}>
-                                {obra.nombre_de_obra}
+                            <li key={obra.id} className="list-group-item obra-link" data-id={obra.id} data-mun={municipio}>
+                                {obra.name}
                                 <button
-                                    onClick={() => setObraSeleccionada(obra)}
+                                    onClick={() => setIdSeleccionado(obra.id)}
                                     className="button-btn-modal-detalle">Ver detalles</button>
                             </li>
                         )) : (
@@ -74,11 +84,11 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
                 </ModalFooter>
             </Modal>
 
-            {obraSeleccionada && (
+            {idSeleccionado && (
                 <ModalObraDetail
                     isShowing={true}
-                    onClose={() => setObraSeleccionada(null)}
-                    obra={obraSeleccionada}
+                    onClose={() => setIdSeleccionado(null)}
+                    obraId={idSeleccionado}
                 />
             )}
         </>
