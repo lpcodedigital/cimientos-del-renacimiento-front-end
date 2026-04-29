@@ -1,25 +1,26 @@
-import type { Curso } from "../../../domain/models/Curso";
+import type { CursoDetalleDTO, CursoPaginado } from "../../../domain/models/Curso";
+import axiosInstance from "../axiosInstance";
 
-
-/**
- * Fetches the GeoJSON data of Yucatan's municipalities from the server.
- * 
- * @returns A Promise that resolves to the GeoJSON data.
- * @throws An error if the request fails.
- */
-const fetchCursos = async (): Promise<Curso> => {
+export const fetchCursos = async (page = 0, size = 10): Promise<CursoPaginado> => {
     try {
-            
-            const response = await fetch(import.meta.env.BASE_URL + 'data/cursos/fake_cursos.json');
-            if (!response.ok) {
-                throw new Error("Error al cargar los cursos");
-            }
-            const data = await response.json();
-            return data as Curso;
-        } catch (error) {
-            console.error(' Error al cargar los cursos: ', error);
-            throw error;
-        }
+        // Usamos el nuevo endpoint público
+        const response = await axiosInstance.get<CursoPaginado>(`/public/curso/list`, {
+            params: { page, size }
+        });
+        return response.data;
+    } catch (error) {
+        console.error('Error al cargar los cursos desde el API:', error);
+        throw error;
+    }
 }
 
-export default fetchCursos;
+export const fetchCursoDetail = async (id: number): Promise<CursoDetalleDTO> => {
+    try {
+        // Usamos el nuevo endpoint público
+        const response = await axiosInstance.get<CursoDetalleDTO>(`/public/curso/detail/${id}`);
+        return response.data;
+    } catch (error) {
+        console.error('Error al cargar los cursos desde el API:', error);
+        throw error;
+    }
+}

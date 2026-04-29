@@ -1,25 +1,25 @@
-import type { CursoElement } from "../../domain/models/Curso";
+import type { CursoPublicDTO } from "../../domain/models/Curso";
 import "../styles/CursoCard.css"
 import formatDate from "./utils/formatDate";
 
 type CursoCardProps = {
-    curso: CursoElement;
-    onClick: (curso: CursoElement) => void;
+    curso: CursoPublicDTO;
+    onClick: (curso: CursoPublicDTO) => void;
 }
 
 const CursoCard: React.FC<CursoCardProps> = ({ curso, onClick }) => (
     
   <div className="curso-card" onClick={() => onClick(curso)}>
   <img
-    src={curso.imagenes[0].url}
-    alt={curso.nombre}
+    src={curso.coverImageUrl || "/portada-base.jpg"}
+    alt={curso.title}
     loading="lazy"
     className="curso-img"
   />
   <div className="curso-info">
-    <h3>{curso.nombre}</h3>
-    <p>{curso.municipio}</p>
-    {formatDate(curso.fecha.toString())}
+    <h3>{curso.title}</h3>
+    <p>{curso.municipalityName}</p>
+    {formatDate(curso.courseDate.toString())}
   </div>
 </div>
 
