@@ -10,6 +10,11 @@ RUN yarn install --frozen-lockfile --network-timeout 1000000
 
 # Copiamos código y construimos
 COPY . .
+
+# Variables de entorno para el build de React/Vite
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
+
 RUN yarn build
 
 # ==========================================
