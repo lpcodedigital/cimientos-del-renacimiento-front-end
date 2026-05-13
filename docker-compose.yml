@@ -8,6 +8,7 @@ services:
       target: prod # target=prod para producion
       args:
         NODE_ENV: production
+        VITE_API_URL: ${URL_BASE_API_BACKEND:-http://localhost:8081/api/v1}
     image: cimientos-del-renacimineto-publico-prod
     container_name: frontend-cimientos-del-renacimiento-container-prod
     ports:
