@@ -4,7 +4,7 @@ import TitleSection from "../../components/TitleSection";
 const Fideicomiso: React.FC = () => {
     return (
         <section id="Fideicomiso">
-            <TitleSection title="Cimientos del renacimiento" />
+            <TitleSection title="Cimientos del Renacimiento" />
             <p>
                 Cimientos del Renacimiento es un programa orientado a mejorar las condiciones laborales y de
                 vida de las y los obreros de la construcción, mediante un enfoque de bienestar integral. Se encuentra alineado al Plan Estatal de Desarrollo Renacimiento Maya 2024–2030 y al programa
