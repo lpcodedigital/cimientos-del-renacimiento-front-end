@@ -3,13 +3,10 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Inicio from "../features/Inicio/Inicio"
 import Ejes from "../features/Ejes/Ejes"
-import Avance from "../features/Avance/Avance"
-import Municipios from "../features/Municipios/Municipios"
-import Transparencia from "../features/Transparencia/Transparencia"
 import Menu from "../components/Menu"
 import Fideicomiso from "../features/Fideicomiso/Fideicomiso"
 import Georeferencia from "../features/Mapa/Georeferencia"
-import Cursos from "../features/Cursos/Cursos"
+import Avance from "../features/Avance/Avance"
 function Home () {
     return (
     <>
@@ -19,11 +16,11 @@ function Home () {
                 <Inicio/>
                 <Fideicomiso/>
                 <Ejes/>
-                <Avance/>
-                <Cursos/>
+                {/* <Avance/> */}
+                {/* <Cursos/> */}
                 <Georeferencia/>
-                <Municipios/>
-                <Transparencia/>
+                {/* <Municipios/> */}
+                {/* <Transparencia/> */}
             </main>
         <Footer/>
     </>

@@ -18,6 +18,7 @@ const CardAvance: React.FC<CardAvanceProps> = ({img, title, porcentaje, descripc
       </div>
 
       <div className="card-avance-body">
+        {/* Círculo de progreso con SVG */}
         <div className="circle-progress">
           <svg width="80" height="80">
             <circle cx="40" cy="40" r="35" stroke="#eee" strokeWidth="10" fill="none" />

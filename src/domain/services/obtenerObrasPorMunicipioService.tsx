@@ -1,4 +1,4 @@
-import type { MunicipioConObras, Obra } from "../models/Obra";
+import type { MunicipioConObras, ObraResponseDTO } from "../models/Obra";
 import { getMunicipios } from "./municipioService";
 
     /**
@@ -13,13 +13,13 @@ import { getMunicipios } from "./municipioService";
      *          informacion de obras agrupadas por municipio. El array se ordena
      *          alfabeticamente por el nombre del municipio.
      */
-export const obtenerObrasPorMunicipioService = (geoData: any, obras: Obra[]): MunicipioConObras[] => {
+export const obtenerObrasPorMunicipioService = (geoData: any, obras: ObraResponseDTO[]): MunicipioConObras[] => {
     if (!geoData || !obras) return [];
 
-     const obrasPorMunicipio: Record<string, Obra[]> = {};
+     const obrasPorMunicipio: Record<string, ObraResponseDTO[]> = {};
     
         for (const obra of obras) {
-          const municipio = obra.nombre_municipio;
+          const municipio = obra.name;
           if (!obrasPorMunicipio[municipio]) {
             obrasPorMunicipio[municipio] = [];
           }

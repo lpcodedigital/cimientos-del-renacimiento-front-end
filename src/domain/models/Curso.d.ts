@@ -22,3 +22,46 @@ export interface CursoPaginado {
     total: number;
     data: CursoPublicDTO[];
 }
+
+export interface CursoMapaDTO {
+    id:               number;
+    title:            string;
+    latitude:         number;
+    longitude:        number;
+    municipalityName: string;
+}
+
+export interface CursoResponseDTO {
+    id:               number;
+    title:            string;
+    description:      string;
+    courseDate:       Date;
+    latitude:         number;
+    longitude:        number;
+    municipalityName: string;
+    municipalityId:   number;
+    coverImage:       Image;
+    images:           Image[];
+    createdBy:        string;
+    updatedBy:        string;
+    createdAt:        Date;
+    updatedAt:        Date;
+}
+
+export interface Image {
+    id:       number;
+    url:      string;
+    thumbUrl: string;
+    mimeType: string;
+    position: number;
+}
+
+export interface CursoLinkDTO {
+    title: string;
+    id:    number;
+}
+
+export interface MunicipioStatsDTO {
+    nombre:     string;
+    totalObras: number;
+}

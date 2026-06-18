@@ -9,6 +9,7 @@ export interface ObraResponseDTO {
     id: number;
     name: string;
     municipality: string;
+    locality: string;
     agency: string;
     investment: number;
     progress: number;
@@ -28,6 +29,7 @@ export interface ObraMapaDTO {
     latitude: number;
     longitude: number;
     municipality: string;
+    locality: string;
 }
 export interface MunicipioConObras{
     nombre: string,

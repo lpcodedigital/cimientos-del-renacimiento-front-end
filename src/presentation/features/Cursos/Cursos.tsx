@@ -37,13 +37,14 @@ const Cursos: React.FC = () => {
     const [cursoIdSeleccionado, setCursoIdSeleccionado] = useState<number | null>(null);
 
     // 3. Este hook traerá las imágenes pesadas SOLO cuando idSeleccionado tenga un valor
-    const { curso: detalle, loading: loadingDetalle } = useCursoDetalle(cursoIdSeleccionado);
+    const { curso: detalle, loading: loadingDetalle, getDetalle } = useCursoDetalle();
 
     const navigate = useNavigate();
 
     // 4. Función para abrir el modal y disparar la carga del detalle
     const handleVerDetalle = (id: number) => {
-        setCursoIdSeleccionado(id);
+        //setCursoIdSeleccionado(id);
+        getDetalle(id); // Carga el detalle del curso seleccionado
         setDetalleModalOpen(true);
     };
 
@@ -55,7 +56,7 @@ const Cursos: React.FC = () => {
     return (
         <>
             <section id="Cursos">
-                <TitleSection title="Cursos" />
+               <TitleSection title="Capacitaciones" />
 
                 <div className="w-full py-8">
                     <Swiper
@@ -82,9 +83,9 @@ const Cursos: React.FC = () => {
 
                     <div className="flex justify-center mt-4 text-center">
                         <button
-                            onClick={() => navigate("/CursosPage")}
+                            onClick={() => navigate("/AllCursos")}
                             className="button-btn-verde">
-                            Ver todos los cursos
+                            Ver más
                         </button>
                         {/* <Link to="/CursosPage" className="button-btn-verde">
                             Ver todos los cursos

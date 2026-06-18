@@ -1,24 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import type { CursoDetalleDTO } from "../../domain/models/Curso";
 import { fetchCursoDetail } from "../api/cursos/cursosApi";
 
-export const useCursoDetalle = (id: number | null) => {
+export const useCursoDetalle = () => {
     const [curso, setCurso] = useState<CursoDetalleDTO | null>(null);
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
-    useEffect(() => {
-        if (!id) return;
+    const getDetalle = (id: number) => {
         setLoading(true);
-        fetchCursoDetail(id).then(res => {
-            setCurso(res);
-        })
-        .catch(err => {
-            console.error(err);
-            setLoading(false);
-        }).finally(() => {
-            setLoading(false);
-        });
-    }, [id]);
+        setError(null);
+        fetchCursoDetail(id)
+            .then((data) => {
+                setCurso(data);
+            })
+            .catch((err) => {
+                console.error("Error al cargar el detalle del curso:", err);
+                setError(err.message || "Error al conectar con el servidor");
+            })
+            .finally(() => {
+                setLoading(false);
+            });
+    };
 
-    return { curso, loading };
+    const resetDetalle = () => setCurso(null);
+
+    return { curso, loading, error, getDetalle, setCurso, resetDetalle };
 };
