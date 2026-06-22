@@ -18,7 +18,7 @@ const ModalGaleria: React.FC<ModalGaleriaProps> = ({ isShowing, onClose, title, 
             
 
             <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
-                <Modal.Title>Imágenes de la obra: {title}</Modal.Title>
+                <Modal.Title>Galería: {title}</Modal.Title>
 
                 <button
                     type="button"

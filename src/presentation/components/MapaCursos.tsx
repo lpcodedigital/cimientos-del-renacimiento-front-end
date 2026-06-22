@@ -98,13 +98,13 @@ const ManejadorEfectosMapa = ({ municipioSeleccionado, geoData }: { municipioSel
     return null;
 };
 
-const MapaObras = () => {
+const MapaCursos = () => {
     const { geoData, loading, error } = useGeoZona();
     const [municipioSeleccionado, setMunicipioSeleccionado] = useState<string | null>(null);
     const [showFilter, setShowFilter] = useState(false);
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "";
 
-    if (loading) return <div className="loading-map">Cargando capas geográficas de obras...</div>;
+    if (loading) return <div className="loading-map">Cargando capas geográficas de capacitaciones...</div>;
     if (error) return <div className="error-map">Error: {error}</div>;
 
     const municipios = getMunicipios(geoData);
@@ -126,7 +126,7 @@ const MapaObras = () => {
                         defaultZoom={8}
                         gestureHandling={"cooperative"}
                         disableDefaultUI={false}
-                        mapId="SIB_OBRAS_MAP"
+                        mapId="SIB_CURSOS_MAP" // 💡 MapID Único e Independiente
                     >
                         <CapaGeoJsonGoogle 
                             geoData={geoData} 
@@ -139,7 +139,7 @@ const MapaObras = () => {
                             geoData={geoData} 
                         />
 
-                        <MarkerClusterLayer type="obras" />
+                        <MarkerClusterLayer type="cursos" />
                         <ButtonResetMap />
                     </Map>
                 </div>
@@ -152,4 +152,4 @@ const MapaObras = () => {
     );
 };
 
-export default MapaObras;
+export default MapaCursos;

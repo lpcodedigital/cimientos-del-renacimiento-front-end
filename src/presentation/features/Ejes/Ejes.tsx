@@ -22,22 +22,9 @@ const Ejes: React.FC = () => {
           seguridad."
                 />
                 <CardEje
-                    title="Prevención de adicciones y salud mental"
-                    description="Fomenta el bienestar integral con campañas de concientización, apoyo
-          psicológico y acciones para prevenir adicciones en entornos
-          laborales."
-                />
-                <CardEje
-                    title="Acompañamiento y bienestar familiar e infantil"
-                    description="Brinda apoyo a las familias de los trabajadores mediante programas
-          de desarrollo infantil, asistencia educativa y servicios integrales
-          de bienestar."
-                />
-                <CardEje
-                    title="Transparencia y rendición de cuentas"
-                    description="Garantiza el acceso a información clara y pública sobre el uso de
-          recursos, avances de obra y resultados, promoviendo la confianza
-          ciudadana."
+                    title="Bienestar para los trabajadores y sus familias"
+                    description="Impulsa el cuidado de la salud física y emocional de los trabajadores, 
+            extendiendo los beneficios del programa hacia sus familias para consolidar comunidades laborales sanas y seguras."
                 />
             </div>
 
