@@ -7,7 +7,7 @@ const Avance: React.FC = () => {
     return (
         <section className="avance-section" id="Avance">
             <TitleSection title="Avance por entidad" />
-             <div className="avance-grid-dashboard d-flex flex-wrap justify-content-center gap-7">
+             <div className="avance-grid-dashboard d-flex flex-column align-items-center gap-4">
 
             <CardAvance
                 img={"https://placehold.co/600x400?text=IDEFEEY"}
