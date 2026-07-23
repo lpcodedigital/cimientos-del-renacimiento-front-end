@@ -9,17 +9,16 @@
 }
 
 .card-eje {
-  max-width:  320px !important;
-  width: 100% !important;
-  background: white !important;
-  border-radius: 1rem !important;
-  padding: 2rem !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
-  transition: transform 0.3s !important;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
 .card-eje:hover {
-  transform: translateY(-5px) !important;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .card-eje-title {
@@ -32,3 +31,4 @@
   /* word-break: normal;
   overflow-wrap: break-word; */
 }
+

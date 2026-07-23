@@ -170,7 +170,7 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                     onClick={() => handleObraClick(o)}
                 >
                     <div style={pinStyle("#901b45")}>
-                        <span>🚧</span>
+                        {/* <span>🚧</span> */}
                         <span style={{ fontSize: "10px" }}>Obra</span>
                     </div>
                 </AdvancedMarker>
@@ -195,7 +195,7 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                     onClick={() => handleCursoClick(c)}
                 >
                     <div style={pinStyle("#7C3AED")}>
-                        <span>🎓</span>
+                        {/* <span>🎓</span> */}
                         <span style={{ fontSize: "10px" }}>Capacitación</span>
                     </div>
                 </AdvancedMarker>

@@ -11,7 +11,7 @@ export const Actions: React.FC = () => {
     const imgCursos = imgCursosLocal; // Reemplaza con la ruta correcta a tu imagen de cursos
 
     return (
-        <div 
+        <div
             style={{
                 width: "100%",
                 display: "flex",
@@ -29,8 +29,10 @@ export const Actions: React.FC = () => {
             <button
                 onClick={() => navigate("/Obras")}
                 style={{
-                    width: "340px", // Más anchas
-                    height: "180px", // Más altas para dar espacio al diseño
+                    width: "100%",
+                    maxWidth: "340px",
+                    minHeight: "180px",
+                    height: "auto",
                     // Capa dual: El gradiente oscuro abajo garantiza legibilidad del texto blanco
                     backgroundImage: `linear-gradient(to top, rgba(144, 27, 69, 0.9) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.1) 100%), url(${imgObras})`,
                     backgroundSize: "cover",
@@ -48,7 +50,9 @@ export const Actions: React.FC = () => {
                     transition: "all 0.4s cubic-bezier(0.16, 1, 0.3, 1)", // Animación más fluida
                     outline: "none",
                     position: "relative",
-                    overflow: "hidden"
+                    overflow: "hidden",
+                    wordWrap: "break-word",
+                    whiteSpace: "normal"
                 }}
                 onMouseEnter={(e) => {
                     e.currentTarget.style.transform = "translateY(-6px)"; // Se eleva un poco más al ser más grande
@@ -59,12 +63,10 @@ export const Actions: React.FC = () => {
                     e.currentTarget.style.boxShadow = "0px 6px 15px rgba(0, 0, 0, 0.15)";
                 }}
             >
-                <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
-                    {/* <span style={{ fontSize: "22px" }}>🚧</span> */}
-                    {/* <span style={{ fontSize: "11px", opacity: 0.85, textTransform: "uppercase", fontWeight: 600 }}>Módulo Público</span> */}
-                </div>
-                <p style={{ margin: 0, fontSize: "18px", fontWeight: "bold", textAlign: "left", fontFamily: "Arial, sans-serif" }}>
-                    <span style={{ fontSize: "35px" }}>🚧</span> Ver Obras Públicas
+                <p style={{ margin: 0,  fontSize: "clamp(16px, 2.5vw, 18px)", fontWeight: "bold", textAlign: "left", fontFamily: "Arial, sans-serif",  lineHeight: "1.4",
+                    wordBreak: "break-word" }}>
+                    {/* <span style={{ fontSize: "35px" }}>🚧</span>  */}
+                    Ver Obras Públicas
                 </p>
             </button>
 
@@ -72,8 +74,10 @@ export const Actions: React.FC = () => {
             <button
                 onClick={() => navigate("/CursosPage")}
                 style={{
-                    width: "340px",
-                    height: "180px",
+                    width: "100%",
+                    maxWidth: "340px",
+                    minHeight: "180px",
+                    height: "auto",
                     // Capa dual: El gradiente oscuro abajo combina con tu morado institucional
                     backgroundImage: `linear-gradient(to top, rgba(124, 58, 237, 0.9) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.1) 100%), url(${imgCursos})`,
                     backgroundSize: "cover",
@@ -91,23 +95,29 @@ export const Actions: React.FC = () => {
                     transition: "all 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
                     outline: "none",
                     position: "relative",
-                    overflow: "hidden"
+                    overflow: "hidden",
+                    wordWrap: "break-word",
+                    whiteSpace: "normal"
                 }}
                 onMouseEnter={(e) => {
                     e.currentTarget.style.transform = "translateY(-6px)";
-                    e.currentTarget.style.boxShadow = "0px 12px 25px rgba(124, 58, 237, 0.3)"; // Brillo morado
+                    e.currentTarget.style.boxShadow = "0px 12px 25px rgba(124, 58, 237, 0.3)";
                 }}
                 onMouseLeave={(e) => {
                     e.currentTarget.style.transform = "translateY(0)";
                     e.currentTarget.style.boxShadow = "0px 6px 15px rgba(0, 0, 0, 0.15)";
                 }}
             >
-                <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
-                    {/* <span style={{ fontSize: "22px" }}>🎓</span> */}
-                    {/* <span style={{ fontSize: "11px", opacity: 0.85, textTransform: "uppercase", fontWeight: 600 }}>Módulo Educativo</span> */}
-                </div>
-                <p style={{ margin: 0, fontSize: "18px", fontWeight: "bold", textAlign: "left", fontFamily: "Arial, sans-serif" }}>
-                    <span style={{ fontSize: "35px" }}>🎓</span> Ver Capacitaciones
+                <p style={{
+                    margin: 0,
+                    fontSize: "clamp(16px, 2.5vw, 18px)",
+                    fontWeight: "bold",
+                    textAlign: "left",
+                    fontFamily: "Arial, sans-serif",
+                    lineHeight: "1.4",
+                    wordBreak: "break-word"
+                }}>
+                    Ver Capacitaciones
                 </p>
             </button>
         </div>
