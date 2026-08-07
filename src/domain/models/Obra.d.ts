@@ -30,6 +30,7 @@ export interface ObraMapaDTO {
     longitude: number;
     municipality: string;
     locality: string;
+    description: string;
 }
 export interface MunicipioConObras{
     nombre: string,

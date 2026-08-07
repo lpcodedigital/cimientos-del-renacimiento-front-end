@@ -24,7 +24,7 @@ const ModalCursoDetail: React.FC<ModalCursoDetailProps> = ({ isShowing, onClose,
         <Modal show={isShowing} onHide={onClose} size="xl" centered>
             <div className="modal-header d-flex justify-content-between align-items-center p-3 pb-0">
                 <Modal.Title>
-                    {loading ? 'Cargando datos...' : `Detalles del Taller: ${curso?.title}`}
+                    {loading ? 'Cargando datos...' : `Capacitación: ${curso?.title}`}
                 </Modal.Title>
                 <button type="button" onClick={onClose} className="btn p-0 border-0 bg-transparent" aria-label="Close">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" style={{ background: 'white', borderRadius: '50%' }}>
@@ -36,7 +36,7 @@ const ModalCursoDetail: React.FC<ModalCursoDetailProps> = ({ isShowing, onClose,
                 <div className="container-modal-body-obra-detail">
                     <p><strong>Municipio Sede:</strong> {curso?.municipalityName}</p><br />
                     <p><strong>Nombre de la Capacitación:</strong> {curso?.title}</p><br />
-                    <p><strong>Fecha de Impartición:</strong> {curso?.courseDate ? new Date(curso.courseDate).toLocaleDateString("es-MX", { timeZone: "UTC" }) : ''}</p><br />
+                    <p><strong>Fecha de Inicio:</strong> {curso?.courseDate ? new Date(curso.courseDate).toLocaleDateString("es-MX", { timeZone: "UTC" }) : ''}</p><br />
                     {curso?.description && (
                         <>
                             <p><strong>Descripción del Programa:</strong> {curso.description}</p><br />
