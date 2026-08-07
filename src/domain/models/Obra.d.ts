@@ -41,6 +41,7 @@ export interface MunicipioConObras{
 export interface ObraLinkDTO {
     id: number;
     name: string;
+    description: string;
 }
 
 export interface MunicipioStadDTO {

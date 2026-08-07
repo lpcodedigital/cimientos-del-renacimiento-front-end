@@ -1,12 +1,48 @@
+/* 1. ESTILO PARA LA FLECHA HACIA ABAJO (FaArrowDown) */
 .scroll-down {
   position: absolute;
-  left: 50%; /* centro horizontal */
+  left: 50%;
   transform: translateX(-50%);
-  bottom: 60px; /* separada del fondo */
-  color: white;
+  bottom: 60px;
+  
+  /* Nuevos estilos de color y fondo */
+  color: var(--color-blanco);
+  background-color: var(--color-vino); /* Usa el color institucional de global.css */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para que resalte más */
+  
   cursor: pointer;
   z-index: 10;
   animation: bounce 2s infinite;
+}
+
+/* 2. ESTILO PARA LAS FLECHAS LATERALES DEL CARRUSEL (Next / Prev) */
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 15 !important;
+  opacity: 0.9; /* Hace que los botones sean un poco más sólidos por defecto */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.450); /* Círculo de color institucional */
+  border-radius: 50%;
+  width: 3rem;   /* Ancho del círculo */
+  height: 3rem;  /* Alto del círculo */
+  background-size: 50%; /* Tamaño de la flecha blanca dentro del círculo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto hover opcional para las flechas del carrusel */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.450); /* Cambia a dorado al pasar el mouse */
+  transition: background-color 0.3s ease;
 }
 
 @keyframes bounce {
@@ -16,4 +52,15 @@
   50% {
     transform: translateX(-50%) translateY(10px); /* 👈 se mantiene centrada */
   }
+}
+
+/* Mantén tu código existente de .scroll-down y @keyframes... */
+
+/* Nuevos estilos para el logo superpuesto */
+/* En tu archivo Inicio.css */
+.carousel-logo {
+  max-width: 90%;      
+  width: 450px;        
+  height: auto;        
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.4)); /* O quítalo si usas fondo 100% blanco */
 }

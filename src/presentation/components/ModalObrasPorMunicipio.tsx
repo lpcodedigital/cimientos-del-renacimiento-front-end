@@ -64,7 +64,7 @@ const ModalObrasPorMunicipio: React.FC<ModalObrasPorMunicipioProps> = ({ isShowi
                     <ul className="list-group">
                         { obras.length !== 0 ? obras.map((obra, idx) => (
                             <li key={obra.id} className="list-group-item obra-link" data-id={obra.id} data-mun={municipio}>
-                                {obra.name}
+                                {obra.description}
                                 <button
                                     onClick={() => setIdSeleccionado(obra.id)}
                                     className="button-btn-modal-detalle">Ver detalles</button>
