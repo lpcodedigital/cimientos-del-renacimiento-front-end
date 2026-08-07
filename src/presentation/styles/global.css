@@ -41,18 +41,18 @@
     max-height: 32px;
   }
 
-
   .hero .carousel-item img {
-    height: auto !important;
-    aspect-ratio: 16 / 9;
-    /* O lo que se ajuste a tu diseño */
+    /* Quitamos el aspect-ratio: 16/9 */
+    height: 350px !important; /* Forzamos una buena altura en móviles */
+    object-fit: cover;        /* Asegura que la imagen de fondo llene ese espacio sin deformarse */
   }
 }
 
 /* Query Media para Tablets pantallas medianas */
 @media (min-width: 577px) and (max-width: 991px) {
   .hero .carousel-item img {
-    height: auto !important; 
+    height: 400px !important; /* Un poco más alto para tablets */
+    object-fit: cover;
   }
 }
 

@@ -137,7 +137,7 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
 
     const abrirGaleriaObra = () => {
         if (!obra) return;
-        setModalData({ title: obra.name, images: obra.images.map(img => img.url) });
+        setModalData({ title: obra.description, images: obra.images.map(img => img.url) });
         setShowModal(true);
     };
 
