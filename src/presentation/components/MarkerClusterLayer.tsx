@@ -207,8 +207,11 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                     onCloseClick={() => setSelectedObra(null)}
                 >
                     <div style={{ minWidth: "220px", color: "#333" }}>
-                        <h6 style={{ margin: 0, fontWeight: "bold" }}>{selectedObra.name}</h6>
-                        <small className="text-muted">{selectedObra.municipality}</small>
+                        <h6 style={{ margin: 0, fontWeight: "bold" }}>{selectedObra.description}</h6>
+                        <hr style={{ margin: "8px 0" }} />
+                        <small className="text-muted">Localidad: {selectedObra.locality}</small>
+                        <br />
+                        <small className="text-muted">Municipio: {selectedObra.municipality}</small>
                         <hr style={{ margin: "8px 0" }} />
                         {loadingObraDetalle ? (
                             <p style={{ margin: 0 }}>⌛ Cargando obras...</p>
@@ -236,7 +239,8 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                 >
                     <div style={{ minWidth: "220px", color: "#333" }}>
                         <h6 style={{ margin: 0, fontWeight: "bold" }}>{selectedCurso.title}</h6>
-                        <small className="text-muted">{selectedCurso.municipalityName}</small>
+                        <hr style={{ margin: "8px 0" }} />
+                        <small className="text-muted">Municipio: {selectedCurso.municipalityName}</small>
                         <hr style={{ margin: "8px 0" }} />
                         {loadingCursoDetalle ? (
                             <p style={{ margin: 0 }}>⌛ Cargando taller...</p>
@@ -246,7 +250,7 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                                     {curso.description}
                                 </p>
                                 <p style={{ fontSize: "0.8rem", margin: "0 0 8px 0" }}>
-                                    <b>Fecha:</b> {new Date(curso.courseDate).toLocaleDateString("es-MX")}
+                                    <b>Fecha de Inicio:</b> {new Date(curso.courseDate).toLocaleDateString("es-MX")}
                                 </p>
                                 <button className="w-100 btn btn-sm text-white" style={{ backgroundColor: "#047857" }} onClick={abrirGaleriaCurso}>
                                     Ver Imágenes
