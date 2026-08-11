@@ -15,7 +15,7 @@ function Home () {
                 <Menu/>
                 <Inicio/>
                 <Fideicomiso/>
-                {/* <Video/> */}
+                <Video/>
                 <Ejes/>
                 {/* <Avance/> */}
                 {/* <Cursos/> */}
