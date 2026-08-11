@@ -6,7 +6,7 @@ import CardEje from "../../components/CardEje";
 const Ejes: React.FC = () => {
     return (
         <section id="Ejes">
-    <TitleSection title="Ejes de trabajo" />
+    <TitleSection title="Ejes de Trabajo" />
 
     <div className="ejes-container d-flex flex-column align-items-center gap-4">
         <CardEje

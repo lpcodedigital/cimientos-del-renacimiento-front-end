@@ -21,7 +21,7 @@ const Obras: React.FC = () => {
                     <Avance />
                    
                    <section id="tabla-municipios-con-obras">
-                        <TitleSection title="Municipios con obras" />
+                        <TitleSection title="Municipios con Obras" />
                         <br />
                         <TablaMunicipiosConObras />
                     </section>
