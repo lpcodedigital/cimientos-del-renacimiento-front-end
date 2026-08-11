@@ -5,7 +5,7 @@ import CarouselImage from "../../components/ui/CarouselImage";
 import { FaArrowDown } from 'react-icons/fa';
 import './Inicio.css'
 import {useScrollTo} from "../../../infrastructure/hooks/useScrollTo";
-import logo from "../../../assets/img/logo-yucatan.png"
+import logo from "../../../assets/img/cimientos1.svg"
 
 const Inicio: React.FC = () => {
 
@@ -44,7 +44,7 @@ const Inicio: React.FC = () => {
 
         {/* Flecha hacia abajo animada */}
         <a onClick={ () => scrollTo('Fideicomiso')} className="scroll-down">
-          <FaArrowDown size={30} />
+          <FaArrowDown />
         </a>
 
         {/* <a

@@ -12,6 +12,7 @@ import ModalGaleria from "./ModalGaleria";
 import type { ObraMapaDTO } from "../../domain/models/Obra";
 import type { CursoMapaDTO } from "../../domain/models/Curso";
 import "../styles/Galeria.css";
+import formatTitleCase from "./utils/formatTitleCase";
 
 interface MarkerClusterLayerProps {
     type?: "general" | "obras" | "cursos";
@@ -209,9 +210,9 @@ const MarkerClusterLayer: React.FC<MarkerClusterLayerProps> = ({ type = "general
                     <div style={{ minWidth: "220px", color: "#333" }}>
                         <h6 style={{ margin: 0, fontWeight: "bold" }}>{selectedObra.description}</h6>
                         <hr style={{ margin: "8px 0" }} />
-                        <small className="text-muted">Localidad: {selectedObra.locality}</small>
+                        <small className="text-muted">Localidad: {formatTitleCase(selectedObra.locality || '')}</small>
                         <br />
-                        <small className="text-muted">Municipio: {selectedObra.municipality}</small>
+                        <small className="text-muted">Municipio: {formatTitleCase(selectedObra.municipality || '')}</small>
                         <hr style={{ margin: "8px 0" }} />
                         {loadingObraDetalle ? (
                             <p style={{ margin: 0 }}>⌛ Cargando obras...</p>

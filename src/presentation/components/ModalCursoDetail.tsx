@@ -3,6 +3,7 @@ import { Modal, ModalFooter } from "react-bootstrap";
 import "../styles/ModalObraDetail.css";
 import { useCursoDetalle } from "../../infrastructure/hooks/useCursoDetalle";
 import SwiperImage from "./SwiperImage";
+import formatTitleCase from "./utils/formatTitleCase";
 
 type ModalCursoDetailProps = {
     isShowing: boolean;
@@ -34,7 +35,7 @@ const ModalCursoDetail: React.FC<ModalCursoDetailProps> = ({ isShowing, onClose,
             </div>
             <Modal.Body>
                 <div className="container-modal-body-obra-detail">
-                    <p><strong>Municipio Sede:</strong> {curso?.municipalityName}</p><br />
+                    <p><strong>Municipio Sede:</strong> {formatTitleCase(curso?.municipalityName)}</p><br />
                     <p><strong>Nombre de la Capacitación:</strong> {curso?.title}</p><br />
                     <p><strong>Fecha de Inicio:</strong> {curso?.courseDate ? new Date(curso.courseDate).toLocaleDateString("es-MX", { timeZone: "UTC" }) : ''}</p><br />
                     {curso?.description && (

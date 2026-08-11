@@ -11,6 +11,7 @@
     "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
+    "@cloudflare/stream-react": "^1.9.3",
     "@googlemaps/markerclusterer": "^2.6.2",
     "@vis.gl/react-google-maps": "^1.8.3",
     "axios": "^1.13.6",

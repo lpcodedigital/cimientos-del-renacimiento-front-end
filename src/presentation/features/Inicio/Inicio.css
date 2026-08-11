@@ -7,7 +7,7 @@
   
   /* Nuevos estilos de color y fondo */
   color: var(--color-blanco);
-  background-color: var(--color-vino); /* Usa el color institucional de global.css */
+  background-color: rgba(200, 94, 94, 0.15); /* Usa el color institucional de global.css */
   width: 50px;
   height: 50px;
   display: flex;
@@ -30,7 +30,7 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(255, 255, 255, 0.450); /* Círculo de color institucional */
+  background-color: rgba(190, 141, 141, 0.899); /* Círculo de color institucional */
   border-radius: 50%;
   width: 3rem;   /* Ancho del círculo */
   height: 3rem;  /* Alto del círculo */
@@ -41,7 +41,7 @@
 /* Efecto hover opcional para las flechas del carrusel */
 .carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
-  background-color: rgba(255, 255, 255, 0.450); /* Cambia a dorado al pasar el mouse */
+  background-color: rgba(177, 101, 101, 0.686); /* Cambia a dorado al pasar el mouse */
   transition: background-color 0.3s ease;
 }
 
@@ -59,8 +59,28 @@
 /* Nuevos estilos para el logo superpuesto */
 /* En tu archivo Inicio.css */
 .carousel-logo {
-  max-width: 90%;      
+  max-width: 50%;      
   width: 450px;        
   height: auto;        
   filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.4)); /* O quítalo si usas fondo 100% blanco */
+}
+/* Tamaño por defecto (escritorio) para el ícono SVG dentro del botón */
+.scroll-down svg {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease; /* Transición suave al cambiar de tamaño */
+}
+
+/* Query Media para Teléfonos con pantallas pequeñas */
+@media (max-width: 768px) {
+  .scroll-down {
+    width: 38px;       /* Círculo más pequeño en móviles */
+    height: 38px;
+    bottom: 30px;      /* Lo acercamos un poco más al borde inferior para que respire la imagen */
+  }
+
+  .scroll-down svg {
+    width: 16px;       /* Ícono más pequeño en móviles */
+    height: 16px;
+  }
 }

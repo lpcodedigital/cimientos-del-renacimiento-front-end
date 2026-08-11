@@ -5,6 +5,7 @@ import SwiperImage from "./SwiperImage";
 import "../styles/ModalObraDetail.css"
 import { useObraDetalle } from "../../infrastructure/hooks/useObraDetalle";
 import { useEffect } from "react";
+import formatTitleCase from "./utils/formatTitleCase";
 
 type ModalObraDetailProps = {
     isShowing: boolean;
@@ -61,7 +62,7 @@ const ModalObraDetail: React.FC<ModalObraDetailProps> = ({ isShowing, onClose, o
                 <div className="container-modal-body-obra-detail">
 
                 <p><strong>Municipio:</strong> {obra?.municipality}</p><br />
-                <p><strong>Localidad:</strong> {obra?.locality}</p><br />
+                <p><strong>Localidad:</strong> {formatTitleCase(obra?.locality || '')}</p><br />
                 <p><strong>Ejecutora:</strong> {obra?.agency}</p><br />
                 <p><strong>Inversión:</strong> ${obra?.investment}</p><br />
                 <p><strong>Avance:</strong> {obra?.progress} %</p><br />

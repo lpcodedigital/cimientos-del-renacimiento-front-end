@@ -6,7 +6,7 @@ import logo from "../../../assets/img/logo.png"
 const Avance: React.FC = () => {
     return (
         <section className="avance-section" id="Avance">
-            <TitleSection title="Avance por entidad" />
+            <TitleSection title="Avance por Entidad" />
              <div className="avance-grid-dashboard d-flex flex-column align-items-center gap-4">
 
             <CardAvance
@@ -27,7 +27,7 @@ const Avance: React.FC = () => {
                 porcentaje={40}
                 descripcion="Instituto para la Construcción y Conservación de Obra Pública en Yucatán."
             />
-            <CardAvance
+            {/* <CardAvance
                 img={'https://placehold.co/600x400?text=IVEY'}
                 title="IVEY"
                 porcentaje={20}
@@ -38,7 +38,7 @@ const Avance: React.FC = () => {
                 title="JAPAY"
                 porcentaje={10}
                 descripcion="Junta de Agua Potable y Alcantarillado de Yucatán."
-            />
+            /> */}
             </div>
 
         </section>

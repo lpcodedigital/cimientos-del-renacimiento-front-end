@@ -6,7 +6,7 @@ import Ejes from "../features/Ejes/Ejes"
 import Menu from "../components/Menu"
 import Fideicomiso from "../features/Fideicomiso/Fideicomiso"
 import Georeferencia from "../features/Mapa/Georeferencia"
-import Avance from "../features/Avance/Avance"
+import Video from "../features/Video/video"
 function Home () {
     return (
     <>
@@ -15,6 +15,7 @@ function Home () {
                 <Menu/>
                 <Inicio/>
                 <Fideicomiso/>
+                {/* <Video/> */}
                 <Ejes/>
                 {/* <Avance/> */}
                 {/* <Cursos/> */}
